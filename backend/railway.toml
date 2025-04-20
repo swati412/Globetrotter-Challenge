@@ -1,0 +1,8 @@
+[build]
+builder = "NIXPACKS"
+watchPatterns = ["app/**"]
+
+[deploy]
+numReplicas = 1
+startCommand = "python run.py"
+healthcheckPath = "/"

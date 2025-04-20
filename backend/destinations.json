@@ -1,0 +1,1650 @@
+[
+  {
+    "city": "Paris",
+    "country": "France",
+    "clues": [
+      "This city is home to a famous tower that sparkles every night.",
+      "Known as the 'City of Love' and a hub for fashion and art."
+    ],
+    "fun_fact": [
+      "The Eiffel Tower was supposed to be dismantled after 20 years but was saved because it was useful for radio transmissions!",
+      "Paris has only one stop sign in the entire city—most intersections rely on priority-to-the-right rules."
+    ],
+    "trivia": [
+      "This city is famous for its croissants and macarons. Bon appétit!",
+      "Paris was originally a Roman city called Lutetia."
+    ]
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "clues": [
+      "This city has the busiest pedestrian crossing in the world called Shibuya Crossing.",
+      "You can visit an entire district dedicated to anime, manga, and gaming called Akihabara."
+    ],
+    "fun_fact": [
+      "Tokyo was originally a small fishing village called Edo before becoming the bustling capital it is today!",
+      "More than 36 million people live in Tokyo's metropolitan area, making it the most populous urban area in the world."
+    ],
+    "trivia": [
+      "The city has over 160,000 restaurants, more than any other city in the world.",
+      "Tokyo's subway system is so efficient that train delays of just a few minutes come with formal apologies."
+    ]
+  },
+  {
+    "city": "New York",
+    "country": "USA",
+    "clues": [
+      "Home to a green statue gifted by France in the 1800s that stands on Liberty Island.",
+      "Nicknamed 'The Big Apple' and known for its Broadway theaters and Times Square."
+    ],
+    "fun_fact": [
+      "The Statue of Liberty was originally a copper color before oxidizing to its iconic green patina.",
+      "New York City has 722 miles of subway track, enough to stretch from NYC to Chicago."
+    ],
+    "trivia": [
+      "New York City has 468 subway stations, making it one of the most complex transit systems in the world.",
+      "The Empire State Building has its own zip code: 10118 and was built in just 410 days."
+    ]
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "clues": [
+      "This city is built on seven hills and has a tiny country within its borders.",
+      "Ancient gladiators once fought in a massive stone amphitheater here called the Colosseum."
+    ],
+    "fun_fact": [
+      "People throw about €1.5 million into the Trevi Fountain each year, which is collected and donated to charity.",
+      "Rome has more than 2,000 fountains, more than any other city in the world."
+    ],
+    "trivia": [
+      "The Pantheon in this city has the world's largest unreinforced concrete dome, built nearly 2,000 years ago.",
+      "This city's first university, La Sapienza, was founded in 1303 and is one of the largest in Europe."
+    ]
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "clues": [
+      "This harbor city is known for its iconic opera house with sail-shaped roofs designed by Jørn Utzon.",
+      "It hosts the world's largest natural harbor and a famous New Year's Eve fireworks display over its harbor bridge."
+    ],
+    "fun_fact": [
+      "The Sydney Opera House took 14 years to build, 10 years longer than expected, and cost 14 times the original budget.",
+      "Sydney's Bondi Beach is one of the most famous beaches in the world, with lifeguards rescuing about 2,500 people per year."
+    ],
+    "trivia": [
+      "Sydney Tower is the city's tallest structure at 309 meters and the second tallest observation tower in the Southern Hemisphere.",
+      "The Sydney Harbour Bridge is nicknamed 'The Coathanger' due to its distinctive arch-based design and is the world's largest steel arch bridge."
+    ]
+  },
+  {
+    "city": "Cairo",
+    "country": "Egypt",
+    "clues": [
+      "This city sits near some of the world's most famous triangular stone structures, built as tombs for pharaohs.",
+      "The world's longest river flows through this ancient metropolis, providing life to the surrounding desert."
+    ],
+    "fun_fact": [
+      "The Great Pyramid of Giza, located on the outskirts of this city, is the only surviving structure of the Seven Wonders of the Ancient World.",
+      "Cairo's Al-Azhar University, founded in 970 CE, is one of the oldest continuously operating universities in the world."
+    ],
+    "trivia": [
+      "The Egyptian Museum in this city contains more than 120,000 ancient Egyptian artifacts, including treasures from Tutankhamun's tomb.",
+      "Cairo's Khan el-Khalili bazaar has been operating since the 14th century and is still one of the world's greatest markets."
+    ]
+  },
+  {
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "clues": [
+      "This city is known for a massive statue of Christ with outstretched arms overlooking the bay from Corcovado Mountain.",
+      "It hosts the world's largest and most famous carnival celebration with samba parades and extravagant costumes."
+    ],
+    "fun_fact": [
+      "The Christ the Redeemer statue is struck by lightning several times a year and has special lightning rods and a system of soapstone layers to protect it.",
+      "Copacabana Beach stretches for 2.5 miles and uses a distinctive black and white Portuguese wave pattern in its promenade designed by Roberto Burle Marx."
+    ],
+    "trivia": [
+      "This city was once the capital of Portugal from 1808 to 1821, the only European capital to exist outside of Europe.",
+      "The Maracanã Stadium once held nearly 200,000 people for the 1950 World Cup final, the largest crowd ever at a sporting event."
+    ]
+  },
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "clues": [
+      "This city has more than 1,200 bridges crossing its 165 canals, which form concentric rings around the old city center.",
+      "Famous for its narrow houses, bicycle culture, and museums dedicated to artists like Van Gogh and Rembrandt."
+    ],
+    "fun_fact": [
+      "Amsterdam has more bicycles than people, with an estimated 881,000 bikes for 821,000 residents.",
+      "Houses in Amsterdam are narrow because historically property taxes were based on the width of the building's facade, leading to the skinny canal houses."
+    ],
+    "trivia": [
+      "Amsterdam's Schiphol Airport is built on land that was once at the bottom of the sea, reclaimed through the Dutch polder system.",
+      "The Anne Frank House is one of the city's most visited museums, preserving the hiding place where Anne Frank wrote her famous diary during World War II."
+    ]
+  },
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "clues": [
+      "This desert city is home to the world's tallest building (828 meters) and artificial islands shaped like palm trees.",
+      "Once a small fishing village, it's now known for luxury shopping, ultramodern architecture, and an indoor ski resort despite desert temperatures."
+    ],
+    "fun_fact": [
+      "Police in this city drive luxury cars including Lamborghinis, Ferraris, and Bentleys to match the city's opulent image.",
+      "The Burj Khalifa is so tall that you can watch the sunset from the base, then take the elevator to the top and watch it set again about 2 minutes later."
+    ],
+    "trivia": [
+      "This city has the world's largest choreographed fountain system, with water jets that shoot up to 500 feet in the air synchronized to music.",
+      "Gold is so common in the souks (markets) here that there's an entire market nicknamed 'The City of Gold' with about 10 tons of gold present at any time."
+    ]
+  },
+  {
+    "city": "Venice",
+    "country": "Italy",
+    "clues": [
+      "This unique city is built on 118 small islands connected by over 400 bridges and separated by 150 canals.",
+      "Instead of roads, this city uses waterways and boats for transportation, with no cars allowed in its historic center."
+    ],
+    "fun_fact": [
+      "Venice is sinking at a rate of 1-2 millimeters per year and experiences regular 'acqua alta' flooding.",
+      "The Venice Carnival dates back to the 12th century and is famous for its elaborate masks that historically allowed citizens to hide their identity and social status."
+    ],
+    "trivia": [
+      "There are no cars or roads in Venice's historic center, making it the largest urban car-free area in Europe.",
+      "The city's famous gondolas are always painted black, by law (established after excessive decoration competition between nobles), except for those belonging to high government officials."
+    ]
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "clues": [
+      "This city has a famous clock tower called Elizabeth Tower, though many mistakenly call it by the name of its main bell.",
+      "It is home to Buckingham Palace and iconic red double-decker buses and telephone booths."
+    ],
+    "fun_fact": [
+      "The London Underground is the world's first underground railway system, opened in 1863, and locals call it 'the Tube'.",
+      "There are more than 170 museums in London, many of which are free to visit, including the British Museum and National Gallery."
+    ],
+    "trivia": [
+      "The River Thames has over 200 bridges crossing it within London, with Tower Bridge being the most famous, often confused with London Bridge.",
+      "Big Ben is actually the name of the main bell inside the Elizabeth Tower, not the tower or clock itself."
+    ]
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "clues": [
+      "A famous wall once divided this city into East and West sections for 28 years during the Cold War.",
+      "It is known for its techno music scene, street art, and the Brandenburg Gate monument."
+    ],
+    "fun_fact": [
+      "Berlin has more bridges than Venice—over 1,700!",
+      "There are over 1,000 doner kebab shops in Berlin, more than in Istanbul, as the dish was popularized by Turkish immigrants."
+    ],
+    "trivia": [
+      "Berlin's Zoologischer Garten is the oldest zoo in Germany (founded 1844) and houses one of the most comprehensive collections of species in the world.",
+      "The city's Brandenburg Gate was once a symbol of division but is now a symbol of unity and peace."
+    ]
+  },
+  {
+    "city": "Moscow",
+    "country": "Russia",
+    "clues": [
+      "This city is home to colorful onion-domed cathedrals, including St. Basil's Cathedral in Red Square.",
+      "It has one of the deepest and most ornate subway systems in the world, with stations decorated like palaces."
+    ],
+    "fun_fact": [
+      "Moscow's Kremlin is the largest active fortress in Europe, serving as the official residence of the President.",
+      "The Moscow Metro stations are often called 'underground palaces' due to their luxurious design with mosaics, marble, and chandeliers."
+    ],
+    "trivia": [
+      "Moscow spans over 2,500 square kilometers, making it one of the largest cities in the world by area and the largest city entirely in Europe.",
+      "The Bolshoi Theatre in Moscow is home to one of the world's oldest and most prestigious ballet companies, founded in 1776."
+    ]
+  },
+  {
+    "city": "Istanbul",
+    "country": "Turkey",
+    "clues": [
+      "This city uniquely straddles two continents: Europe and Asia, separated by the Bosphorus Strait.",
+      "It was formerly known as Byzantium and later Constantinople, serving as the capital of multiple empires."
+    ],
+    "fun_fact": [
+      "The Grand Bazaar in this city has over 4,000 shops, 61 covered streets, and dates back to the 15th century as one of the world's oldest and largest covered markets.",
+      "Istanbul's Hagia Sophia has been a cathedral, a mosque, a museum, and now a mosque again in its 1,500-year history."
+    ],
+    "trivia": [
+      "Tulips, often associated with the Netherlands, actually originated in Turkey and were sent to the Dutch from the Ottoman Empire.",
+      "The Bosphorus Strait is one of the world's busiest waterways, connecting the Black Sea to the Sea of Marmara and serving as a continental boundary."
+    ]
+  },
+  {
+    "city": "Madrid",
+    "country": "Spain",
+    "clues": [
+      "This city is home to the Royal Palace, the largest royal palace in Western Europe with over 3,000 rooms.",
+      "Its famous museum, the Prado, houses one of the world's finest collections of European art."
+    ],
+    "fun_fact": [
+      "Madrid's coat of arms features a bear reaching for fruit from a strawberry tree, a statue of which can be found in the city's main square.",
+      "Madrid is the highest capital city in Europe at 650 meters above sea level, giving it a unique climate with hot summers and cold winters."
+    ],
+    "trivia": [
+      "The oldest restaurant in the world according to Guinness World Records is in Madrid - Botín, founded in 1725 and mentioned in Ernest Hemingway's work.",
+      "Madrid's massive El Retiro Park was a royal property until the late 19th century and features a rare statue of the 'Fallen Angel' - one of the few public monuments of Lucifer in the world."
+    ]
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "clues": [
+      "This Mediterranean city is known for Antoni Gaudí's unique architecture, especially a massive unfinished cathedral.",
+      "It has a famous pedestrian street called La Rambla and hosted the 1992 Summer Olympics."
+    ],
+    "fun_fact": [
+      "The Sagrada Família basilica has been under construction since 1882 and is not expected to be completed until 2026, the centenary of Gaudí's death.",
+      "Barcelona's grid layout in the Eixample district was revolutionary urban planning in the 19th century, with unique octagonal intersections."
+    ],
+    "trivia": [
+      "Barcelona's Camp Nou is the largest soccer stadium in Europe with a capacity of over 99,000 spectators.",
+      "The city has 9 UNESCO World Heritage Sites, 7 of which were designed by Antoni Gaudí, including Park Güell and Casa Batlló."
+    ]
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "clues": [
+      "This coastal capital city is built on seven steep hills and is known for its vintage yellow trams.",
+      "Famous for its fado music, a melancholic genre, and pastéis de nata (custard tarts)."
+    ],
+    "fun_fact": [
+      "Lisbon was hit by one of the most powerful earthquakes in European history in 1755, which was followed by a tsunami and fires that destroyed 85% of the city.",
+      "The Vasco da Gama Bridge in Lisbon is one of the longest bridges in Europe at nearly 11 miles (17 km) long."
+    ],
+    "trivia": [
+      "Lisbon is one of the oldest cities in Western Europe, predating London, Paris, and Rome by centuries.",
+      "The city's Alfama district survived the great earthquake and maintains its medieval layout with narrow winding streets."
+    ]
+  },
+  {
+    "city": "Athens",
+    "country": "Greece",
+    "clues": [
+      "This ancient city is dominated by a hilltop citadel containing the remains of several ancient buildings including a famous temple to Athena.",
+      "Considered the birthplace of democracy, philosophy, and classical art forms in Western civilization."
+    ],
+    "fun_fact": [
+      "Athens has been inhabited for at least 7,000 years, making it one of the oldest continuously inhabited cities in the world.",
+      "The modern Athens Marathon follows the legendary route of Pheidippides, who ran from Marathon to Athens to announce the Greek victory over the Persians in 490 BCE."
+    ],
+    "trivia": [
+      "The Acropolis is visible from almost anywhere in Athens and is illuminated at night to create a stunning landmark.",
+      "Despite its ancient history, Athens' metro system is one of the most modern in Europe and doubles as a museum with archaeological artifacts found during its construction displayed at stations."
+    ]
+  },
+  {
+    "city": "Prague",
+    "country": "Czech Republic",
+    "clues": [
+      "This city is known for its well-preserved medieval Old Town and the largest ancient castle complex in the world.",
+      "It has a famous astronomical clock from 1410 that gives an hourly show and a bridge lined with 30 statues."
+    ],
+    "fun_fact": [
+      "Prague Castle covers an area of almost 70,000 square meters, making it the largest ancient castle complex in the world according to the Guinness Book of Records.",
+      "The city was largely untouched by World War II bombing, preserving its historic architecture spanning several centuries and styles."
+    ],
+    "trivia": [
+      "Prague's Charles Bridge is lined with 30 baroque statues and was the only means of crossing the Vltava River until 1841.",
+      "The Prague Astronomical Clock has been measuring time since 1410, making it the third-oldest astronomical clock in the world and the oldest one still operating."
+    ]
+  },
+  {
+    "city": "Vienna",
+    "country": "Austria",
+    "clues": [
+      "This city is known as the 'City of Music' due to its musical legacy, home to Mozart, Beethoven, and Strauss.",
+      "Famous for its imperial palaces, especially Schönbrunn, and its café culture with sachertorte chocolate cake."
+    ],
+    "fun_fact": [
+      "Vienna's Central Cemetery has over 2.5 million tombs (more than the city's living population), including those of Beethoven, Schubert, Strauss, and Brahms.",
+      "The Spanish Riding School in Vienna has been training Lipizzaner horses in classical dressage for over 450 years."
+    ],
+    "trivia": [
+      "Vienna has consistently been ranked as one of the world's most livable cities and was the first city to have a public housing program.",
+      "The Wiener Riesenrad, a giant Ferris wheel in the Prater amusement park, was built in 1897 and featured in films like 'The Third Man' and 'Before Sunrise'."
+    ]
+  },
+  {
+    "city": "Budapest",
+    "country": "Hungary",
+    "clues": [
+      "This city is actually two cities divided by a river, united in 1873 with one side hilly and the other flat.",
+      "Famous for its thermal baths, including the Neo-Baroque Széchenyi Baths, the largest medicinal bath in Europe."
+    ],
+    "fun_fact": [
+      "Budapest has the world's largest thermal water cave system and the second-largest synagogue in the world (the Dohány Street Synagogue).",
+      "The Hungarian Parliament Building in Budapest has 691 rooms and 20 kilometers (12.5 miles) of stairs, requiring 40 million bricks to build."
+    ],
+    "trivia": [
+      "Rubik's Cube was invented by Hungarian architect Ernő Rubik, and Budapest has a museum dedicated to this famous puzzle.",
+      "This city has the oldest underground railway system in continental Europe, opened in 1896, second only to London's in age."
+    ]
+  },
+  {
+    "city": "Warsaw",
+    "country": "Poland",
+    "clues": [
+      "This city's historic center was meticulously rebuilt after being destroyed in World War II, earning it the nickname 'Phoenix City.'",
+      "It is split by the Vistula River and features a mermaid with sword and shield as its symbol."
+    ],
+    "fun_fact": [
+      "Warsaw's Old Town was so faithfully reconstructed after WWII that it was designated a UNESCO World Heritage site despite being largely built in the 1950s.",
+      "Marie Curie, the first person to win Nobel Prizes in two different scientific fields, was born in this city and studied at its Flying University."
+    ],
+    "trivia": [
+      "The Palace of Culture and Science, a controversial gift from the Soviet Union, remains the tallest building in Poland at 237 meters.",
+      "Warsaw's Royal Lazienki Park features a famous monument to Chopin where free piano concerts are held every Sunday during summer."
+    ]
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "clues": [
+      "This city is known for its colorful harbor buildings in Nyhavn and a famous bronze statue of a fairytale character sitting on a rock.",
+      "Considered one of the world's most bicycle-friendly cities, with bikes outnumbering cars."
+    ],
+    "fun_fact": [
+      "Copenhagen's Tivoli Gardens is one of the oldest amusement parks in the world, opened in 1843, and inspired Walt Disney to create Disneyland.",
+      "The Little Mermaid statue is relatively small (just 1.25 meters) and has been vandalized several times, including having her head removed twice."
+    ],
+    "trivia": [
+      "The Copenhagen Opera House is one of the most expensive opera houses ever built, costing over $500 million, and was funded entirely as a gift to the city.",
+      "Christiania, a self-proclaimed autonomous neighborhood in the city, was established by squatters in 1971 and still operates with its own rules."
+    ]
+  },
+  {
+    "city": "Stockholm",
+    "country": "Sweden",
+    "clues": [
+      "This capital city is built on 14 islands connected by 57 bridges and is sometimes called 'Venice of the North.'",
+      "It's home to the Nobel Prize banquet and a museum dedicated to a famous pop group from the 1970s."
+    ],
+    "fun_fact": [
+      "Stockholm's subway system is known as the world's longest art gallery, with over 90 of the 100 stations decorated with sculptures, mosaics, and paintings.",
+      "The Stockholm archipelago consists of about 30,000 islands and islets, many uninhabited, making it the largest archipelago in Sweden."
+    ],
+    "trivia": [
+      "The Vasa Museum houses a nearly fully intact 17th-century warship that sank on its maiden voyage in 1628 and was salvaged in 1961.",
+      "ABBA The Museum allows visitors to virtually try on the band's costumes and sing with hologram versions of the Swedish pop stars."
+    ]
+  },
+  {
+    "city": "Helsinki",
+    "country": "Finland",
+    "clues": [
+      "This waterfront capital has a famous white cathedral with green domes that dominates its skyline.",
+      "Known for its design scene, saunas, and an island fortress that's a UNESCO World Heritage site."
+    ],
+    "fun_fact": [
+      "Helsinki has approximately 3 million saunas, averaging roughly one per household, and even has one inside Burger King.",
+      "The city was originally built as a rival to St. Petersburg when Finland was part of the Russian Empire in the early 19th century."
+    ],
+    "trivia": [
+      "Helsinki's Temppeliaukio Church (Rock Church) is built directly into solid rock and is known for its excellent acoustics.",
+      "The city hosts Restaurant Day four times a year, when anyone can open a pop-up restaurant anywhere, from parks to living rooms."
+    ]
+  },
+  {
+    "city": "Oslo",
+    "country": "Norway",
+    "clues": [
+      "This capital city sits at the end of a fjord and is surrounded by forests and hills for skiing and hiking.",
+      "Home to the Nobel Peace Prize ceremony and a museum housing Viking ships over 1,000 years old."
+    ],
+    "fun_fact": [
+      "Oslo is the only capital city in the world that has ski trails, forests, lakes, and beaches all within the city limits.",
+      "The Oslo Opera House has a sloped roof that visitors can walk on, designed to appear as if it rises from the water."
+    ],
+    "trivia": [
+      "The Vigeland Sculpture Park contains over 200 sculptures in bronze, granite, and cast iron created by Gustav Vigeland, including the famous 'Angry Boy'.",
+      "Oslo City Hall, where the Nobel Peace Prize ceremony is held, has walls decorated with murals depicting Norwegian history, culture, and working life."
+    ]
+  },
+  {
+    "city": "Reykjavik",
+    "country": "Iceland",
+    "clues": [
+      "This northernmost capital of a sovereign state is powered almost entirely by geothermal energy.",
+      "Its name means 'Smoky Bay' and it's dominated by the 73-meter-tall Hallgrímskirkja church."
+    ],
+    "fun_fact": [
+      "In Reykjavik, it's possible to swim in naturally heated outdoor pools year-round, even when snow is on the ground.",
+      "The city doesn't have a mosquito population due to the climate's fluctuating temperatures."
+    ],
+    "trivia": [
+      "Reykjavik uses geothermal water to heat sidewalks and streets to melt snow in winter.",
+      "The Imagine Peace Tower, a memorial to John Lennon from Yoko Ono, projects a beam of light vertically into the sky from the city each year."
+    ]
+  },
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "clues": [
+      "This city is divided by the River Liffey and is home to a famous dark beer brewery founded in 1759.",
+      "Its literary heritage includes writers like Joyce, Yeats, and Wilde, with a designated Cultural Quarter called Temple Bar."
+    ],
+    "fun_fact": [
+      "Dublin's St. Patrick's Cathedral is the tallest and largest church in Ireland, and Jonathan Swift (author of 'Gulliver's Travels') was once its Dean.",
+      "The city has over 750 pubs, and its oldest, The Brazen Head, dates back to 1198."
+    ],
+    "trivia": [
+      "The Book of Kells, an illuminated manuscript Gospel book created around 800 AD, is housed in Trinity College's Old Library.",
+      "Dublin's Ha'penny Bridge got its name from the halfpenny toll once charged to cross it when it opened in 1816."
+    ]
+  },
+  {
+    "city": "Brussels",
+    "country": "Belgium",
+    "clues": [
+      "This city is the de facto capital of the European Union and known for its waffle-shaped waffle.",
+      "Famous for a small bronze fountain statue of a urinating boy that's often dressed in costumes."
+    ],
+    "fun_fact": [
+      "The Brussels Grand Place contains the Town Hall, which has a spire that leans about 1 meter from the center - legend says the architect jumped from it upon discovering this flaw.",
+      "The city has over 1,000 varieties of beer and is famous for chocolate, with more than 500 chocolatiers."
+    ],
+    "trivia": [
+      "The Atomium, a 102-meter tall structure resembling an iron crystal magnified 165 billion times, was built for the 1958 World's Fair.",
+      "Manneken Pis, the famous urinating boy statue, has over 900 costumes that are changed regularly according to a published schedule."
+    ]
+  },
+  {
+    "city": "Zurich",
+    "country": "Switzerland",
+    "clues": [
+      "This city sits at the northern tip of its eponymous lake and is the largest in its country despite not being the capital.",
+      "Known as a global center for banking and finance with a pristine old town divided by the Limmat River."
+    ],
+    "fun_fact": [
+      "Zurich has the highest density of nightclubs in Switzerland and was home to the 'Dada' art movement, born in the Cabaret Voltaire in 1916.",
+      "The city has over 1,200 drinking fountains with clean, potable water - more public fountains than any other city in the world."
+    ],
+    "trivia": [
+      "Zurich's Bahnhofstrasse is one of the world's most expensive shopping streets, built on top of the city's ancient moat.",
+      "James Joyce wrote much of his novel 'Ulysses' while living in Zurich and is buried in the city's Fluntern Cemetery."
+    ]
+  },
+  {
+    "city": "Geneva",
+    "country": "Switzerland",
+    "clues": [
+      "This city sits along the shores of Europe's largest Alpine lake and features a 140-meter-tall water fountain.",
+      "Known as a global hub for diplomacy, hosting the European headquarters of the United Nations and the Red Cross."
+    ],
+    "fun_fact": [
+      "The Jet d'Eau fountain pumps 500 liters of water per second to a height of 140 meters and was originally created as a safety valve for hydraulic power.",
+      "The world's largest machine, the Large Hadron Collider, is located underneath this city at CERN, straddling the Swiss-French border."
+    ],
+    "trivia": [
+      "Geneva was the center of the Protestant Reformation led by John Calvin in the 16th century.",
+      "The first Geneva Convention, establishing the rules of war and protection for the wounded, was signed in this city in 1864."
+    ]
+  },
+  {
+    "city": "Munich",
+    "country": "Germany",
+    "clues": [
+      "This Bavarian city is known for its annual beer festival that attracts over 6 million visitors each year.",
+      "Home to BMW headquarters and the famous Glockenspiel clock tower in Marienplatz that tells the story of a royal wedding."
+    ],
+    "fun_fact": [
+      "Munich's Englischer Garten (English Garden) is larger than New York's Central Park and contains a river with surfing waves.",
+      "The city's famous Oktoberfest originally celebrated a royal wedding in 1810 and has been canceled only 26 times in over 200 years."
+    ],
+    "trivia": [
+      "The BMW Museum is shaped like a bowl of engine and showcases the company's technological developments alongside its car and motorcycle models.",
+      "FC Bayern Munich, one of the world's most successful soccer clubs, plays at Allianz Arena, which can change its entire external color."
+    ]
+  },
+  {
+    "city": "Frankfurt",
+    "country": "Germany",
+    "clues": [
+      "This city is a major financial hub with a skyline of skyscrapers that has earned it the nickname 'Mainhattan.'",
+      "It hosts the world's largest book fair and was the birthplace of Germany's most famous writer, Johann Wolfgang von Goethe."
+    ],
+    "fun_fact": [
+      "Frankfurt was the coronation city for Holy Roman Emperors from 1562 to 1792, with ceremonies held in its Imperial Cathedral.",
+      "The city was almost completely destroyed during World War II, with about 70% of its buildings reduced to rubble."
+    ],
+    "trivia": [
+      "The Frankfurt Stock Exchange is one of the world's largest trading centers, represented by a bull and bear statue outside its building.",
+      "The city's signature dish is green sauce (Grüne Soße), made from seven herbs and traditionally served with hard-boiled eggs and potatoes."
+    ]
+  },
+  {
+    "city": "Milan",
+    "country": "Italy",
+    "clues": [
+      "This northern Italian city is one of the world's fashion capitals and home to one of the largest Gothic cathedrals.",
+      "Leonardo da Vinci's 'The Last Supper' is housed in a convent here, and the city hosts one of the world's major opera houses."
+    ],
+    "fun_fact": [
+      "Milan's Cathedral (Duomo) took nearly six centuries to complete and has more statues than any other building in the world - 3,400 in total.",
+      "The Galleria Vittorio Emanuele II is one of the world's oldest shopping malls, built in 1877 and known for its glass dome and mosaic floors."
+    ],
+    "trivia": [
+      "La Scala Opera House is considered one of the leading opera and ballet theaters in the world, with some of the finest acoustics.",
+      "There's a tradition in Milan to spin your heel on the mosaic bull's testicles in the Galleria for good luck."
+    ]
+  },
+  {
+    "city": "Naples",
+    "country": "Italy",
+    "clues": [
+      "This southern Italian city sits in the shadow of a famous active volcano and is the birthplace of pizza.",
+      "It has an extensive network of underground tunnels and cisterns dating back to Greek and Roman times."
+    ],
+    "fun_fact": [
+      "Naples has the highest concentration of historical monuments and churches in the world, with over 500 churches in the historic center alone.",
+      "The original Neapolitan pizza (Pizza Margherita) was created in 1889 to honor Queen Margherita, with tomato, mozzarella, and basil representing the colors of the Italian flag."
+    ],
+    "trivia": [
+      "The Naples National Archaeological Museum houses many of the best-preserved artifacts from Pompeii and Herculaneum.",
+      "The Veiled Christ sculpture in the Cappella Sansevero is so realistic that for years people believed the marble veil was real and later transformed to stone."
+    ]
+  },
+  {
+    "city": "Edinburgh",
+    "country": "United Kingdom",
+    "clues": [
+      "This Scottish capital has an imposing castle on a volcanic rock and a famous annual arts festival in August.",
+      "Its historic Old Town and elegant Georgian New Town together form a UNESCO World Heritage site."
+    ],
+    "fun_fact": [
+      "Edinburgh has 112 parks and more trees per person than any other UK city.",
+      "The city's medieval Old Town has a network of underground streets and chambers called the 'Real Mary King's Close' where residents lived until they were bricked up after a plague outbreak."
+    ],
+    "trivia": [
+      "Edinburgh Castle sits atop an extinct volcano called Castle Rock and houses the Scottish Crown Jewels and the Stone of Destiny.",
+      "The Royal Mile is actually 1.12 miles long, connecting Edinburgh Castle with the Palace of Holyroodhouse, the Queen's official residence in Scotland."
+    ]
+  },
+  {
+    "city": "Glasgow",
+    "country": "United Kingdom",
+    "clues": [
+      "This Scottish city was once a major shipbuilding center and is known for its distinctive red sandstone Victorian architecture.",
+      "Famous for its vibrant music scene, it was designated a UNESCO City of Music in 2008."
+    ],
+    "fun_fact": [
+      "Glasgow has the highest concentration of universities and colleges in Europe and the city's subway system is nicknamed 'the Clockwork Orange'.",
+      "The Glasgow School of Art, designed by Charles Rennie Mackintosh, was considered his masterpiece before being badly damaged by fires in 2014 and 2018."
+    ],
+    "trivia": [
+      "The Kelvingrove Art Gallery and Museum houses Salvador Dalí's 'Christ of St. John of the Cross' and is one of Scotland's most popular attractions.",
+      "Glasgow's necropolis is a Victorian cemetery with around 50,000 individuals buried there, featuring elaborate monuments and mausoleums."
+    ]
+  },
+  {
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "clues": [
+      "This capital city sits along the Danube River and is the only national capital that borders two other countries.",
+      "Its skyline features a distinctive castle on a hill and a bridge with a UFO-shaped restaurant on top."
+    ],
+    "fun_fact": [
+      "Bratislava is just 60 kilometers from Vienna, making them the closest capital cities in Europe (besides Rome and Vatican City).",
+      "The city's UFO observation deck and restaurant sits 95 meters above the Danube River on the SNP Bridge and can be reached by elevator in 45 seconds."
+    ],
+    "trivia": [
+      "Bratislava Castle contains a branch of the Slovak National Museum and offers panoramic views of the city and neighboring countries.",
+      "The Old Town Hall is the oldest city hall in Slovakia and houses the city's oldest museum, with the entrance guarded by a cannonball from Napoleon's army embedded in the wall."
+    ]
+  },
+  {
+    "city": "Luxembourg City",
+    "country": "Luxembourg",
+    "clues": [
+      "This small capital city is built amid deep gorges cut by two rivers and features ancient fortress walls and casemates.",
+      "It is one of the three official capitals of the European Union and a major financial center despite its small size."
+    ],
+    "fun_fact": [
+      "Luxembourg City's Bock Casemates are a 17 km network of underground tunnels carved out of solid rock that once sheltered thousands of soldiers and their equipment.",
+      "The city changes drastically in elevation, with the upper parts 70 meters higher than the lower districts in the gorges."
+    ],
+    "trivia": [
+      "Luxembourg is one of the smallest countries in Europe but has the highest GDP per capita in the European Union.",
+      "The Grand Ducal Palace is the official residence of the Grand Duke of Luxembourg and is open to tourists during summer months."
+    ]
+  },
+  {
+    "city": "Belgrade",
+    "country": "Serbia",
+    "clues": [
+      "This city sits at the confluence of two major rivers and has a fortress that has been destroyed and rebuilt over 40 times.",
+      "Known for its vibrant nightlife and floating nightclubs called 'splavovi' along its riverbanks."
+    ],
+    "fun_fact": [
+      "Belgrade Fortress has been destroyed over 40 times throughout history, making it one of the most contested pieces of real estate in Europe.",
+      "The city has been settled continuously since at least 7000 BC, making it one of the oldest human settlements in Europe."
+    ],
+    "trivia": [
+      "Belgrade's Church of Saint Sava is one of the largest Orthodox churches in the world and one of the largest church buildings overall.",
+      "The House of Flowers is the mausoleum of former Yugoslav leader Josip Broz Tito, who ruled the country for 35 years."
+    ]
+  },
+  {
+    "city": "Zagreb",
+    "country": "Croatia",
+    "clues": [
+      "This capital city is divided into an Upper Town with medieval buildings and a Lower Town with 19th-century architecture.",
+      "Famous for its Museum of Broken Relationships and a stone gate with a miraculous painting that survived a fire."
+    ],
+    "fun_fact": [
+      "Zagreb has a unique Museum of Broken Relationships displaying personal objects from failed relationships, which won the European Museum of the Year Award.",
+      "The city's Grič Cannon fires every day at noon from the Lotrščak Tower, a tradition dating back to the 19th century."
+    ],
+    "trivia": [
+      "Zagreb Cathedral is the tallest building in Croatia and contains the tomb of Cardinal Alojzije Stepinac.",
+      "The city's Dolac Market has been the main trading place since the 1930s and is recognizable by its red umbrella stands."
+    ]
+  },
+  {
+    "city": "Ljubljana",
+    "country": "Slovenia",
+    "clues": [
+      "This small capital is known for its green initiatives and dragon symbols adorning its bridges and buildings.",
+      "The city center is traffic-free and overlooked by a medieval castle on a hill accessed by funicular."
+    ],
+    "fun_fact": [
+      "Ljubljana has been car-free in its center since 2008, with free electric taxis called 'Kavalirs' (Gentle Helpers) available for those who need assistance.",
+      "The city's name is believed to derive from 'ljubljena,' meaning 'beloved,' or from 'ljubljanica,' the river that flows through it."
+    ],
+    "trivia": [
+      "The Dragon Bridge is decorated with four dragon statues that according to legend, wag their tails when a virgin crosses.",
+      "Ljubljana Castle offers panoramic views of the city and houses a puppet museum, reflecting Slovenia's rich tradition of puppetry."
+    ]
+  },
+  {
+    "city": "Sofia",
+    "country": "Bulgaria",
+    "clues": [
+      "This capital city sits at the foot of Vitosha Mountain and features gold-domed orthodox churches.",
+      "It has ancient Roman ruins visible in its metro stations and one of the largest Eastern Orthodox cathedrals in the world."
+    ],
+    "fun_fact": [
+      "Sofia is among the few capital cities in Europe with a ski resort just 30 minutes away (Vitosha Mountain).",
+      "The city is built upon natural mineral springs, with public drinking fountains offering hot mineral water believed to have healing properties."
+    ],
+    "trivia": [
+      "The Alexander Nevsky Cathedral is one of the largest Eastern Orthodox cathedrals in the world, built to honor Russian soldiers who died liberating Bulgaria in the Russo-Turkish War.",
+      "Sofia's Largo complex of Socialist Classicism buildings now houses the Bulgarian Presidency, with ancient Serdica ruins visible underneath through a glass floor."
+    ]
+  },
+  {
+    "city": "Bucharest",
+    "country": "Romania",
+    "clues": [
+      "This city features the world's second-largest administrative building after the Pentagon, built by a communist dictator.",
+      "Once known as 'Little Paris' for its Belle Époque architecture and its own Arc de Triomphe."
+    ],
+    "fun_fact": [
+      "The Palace of the Parliament is the world's second-largest administrative building, contains 3,500 tons of crystal, and has 1,100 rooms, many of which remain unused.",
+      "Bucharest's Cișmigiu Gardens, the city's oldest public garden, opened in 1854 and contains a Monte Carlo-style casino."
+    ],
+    "trivia": [
+      "Bucharest has its own Arcul de Triumf (Arch of Triumph), modeled after the one in Paris and built after Romania's WWI victory.",
+      "The city's Old Town is home to Carturesti Carusel, one of the world's most beautiful bookstores, located in a restored 19th-century building."
+    ]
+  },
+  {
+    "city": "Kyiv",
+    "country": "Ukraine",
+    "clues": [
+      "This Eastern European capital is known for its gold-domed churches and monasteries, particularly those in the Cave Monastery complex.",
+      "It features a massive titanium statue of a woman with shield and sword standing atop a war museum."
+    ],
+    "fun_fact": [
+      "Kyiv is home to the deepest metro station in the world - Arsenalna - which is 105.5 meters below ground and takes over 5 minutes to reach by escalator.",
+      "The Motherland Monument in Kyiv stands 102 meters tall, weighs 560 tons, and was built as part of a Soviet war memorial complex in 1981."
+    ],
+    "trivia": [
+      "Kyiv-Pechersk Lavra (the Monastery of the Caves) contains a network of underground tunnels with mummified monks' bodies naturally preserved for centuries.",
+      "Saint Sophia Cathedral contains the world's largest ensemble of frescoes and mosaics from the 11th century and is a UNESCO World Heritage site."
+    ]
+  },
+  {
+    "city": "Saint Petersburg",
+    "country": "Russia",
+    "clues": [
+      "This imperial city was built on swampland by a tsar who wanted a 'window to Europe' and features numerous canals and bridges.",
+      "Home to one of the world's largest art museums in a massive green palace along the Neva River."
+    ],
+    "fun_fact": [
+      "Saint Petersburg has 342 bridges, 93 of which are drawbridges that open at night to let ships pass, potentially stranding people on the wrong side.",
+      "The city was built on swampland by Peter the Great starting in 1703, costing thousands of laborers' lives due to harsh conditions."
+    ],
+    "trivia": [
+      "The Hermitage Museum houses over 3 million items, including the world's largest collection of paintings, and it would take 11 years to see each item for one minute.",
+      "During the summer months, Saint Petersburg experiences 'White Nights' when the sun barely sets, and the city hosts a famous arts and cultural festival."
+    ]
+  },
+  {
+    "city": "Kazan",
+    "country": "Russia",
+    "clues": [
+      "This city is known as the 'Third Capital of Russia' and features the country's only leaning tower within its white-walled kremlin.",
+      "Often called 'Russia's Istanbul' for its blend of Orthodox Christian and Muslim cultures, symbolized by churches and mosques standing side by side."
+    ],
+    "fun_fact": [
+      "Kazan's kremlin contains both the Kul Sharif Mosque and the Annunciation Cathedral, symbolizing the peaceful coexistence of Islam and Orthodox Christianity.",
+      "The Söyembikä Tower within the kremlin leans even more than the Tower of Pisa, with a 1.98-meter deviation from vertical."
+    ],
+    "trivia": [
+      "Kazan hosted the 2013 Summer Universiade, the 2015 World Aquatics Championships, and was one of the host cities for the 2018 FIFA World Cup.",
+      "The city's name means 'cooking pot' in Tatar, referring to its role as a cultural melting pot of Slavic and Turkic traditions."
+    ]
+  },
+  {
+    "city": "Jakarta",
+    "country": "Indonesia",
+    "clues": [
+      "This massive Southeast Asian capital features the world's largest mosque by capacity and is sinking faster than any other big city.",
+      "Located on the northwest coast of Java, it was formerly known as Batavia during Dutch colonial rule."
+    ],
+    "fun_fact": [
+      "Jakarta is sinking at an alarming rate of 25 cm per year in some areas due to groundwater extraction and the weight of its buildings.",
+      "The city is planning to relocate its capital functions to East Kalimantan by 2024 due to overcrowding and environmental issues."
+    ],
+    "trivia": [
+      "The National Monument (Monas) in central Jakarta is 137 meters tall, topped with a flame coated in 35 kg of gold leaf.",
+      "Istiqlal Mosque is the largest mosque in Southeast Asia, can accommodate up to 200,000 worshippers, and is connected by a tunnel to the Jakarta Cathedral."
+    ]
+  },
+  {
+    "city": "Manila",
+    "country": "Philippines",
+    "clues": [
+      "This densely populated capital contains the oldest Chinatown in the world and was once surrounded by massive Spanish colonial walls.",
+      "Its historic walled city survived World War II bombings and features baroque churches and a famous sunset view over its bay."
+    ],
+    "fun_fact": [
+      "Manila's Binondo district, established in 1594, is considered the oldest Chinatown in the world.",
+      "The city was once known as the 'Pearl of the Orient' and was the second most devastated city in World War II after Warsaw."
+    ],
+    "trivia": [
+      "Intramuros, the historic walled city, contains Fort Santiago and San Agustin Church, one of the country's oldest stone churches and a UNESCO World Heritage site.",
+      "Manila Bay is famous for its spectacular sunsets, which have been described as one of the best in the world by travel writers."
+    ]
+  },
+  {
+    "city": "Bangkok",
+    "country": "Thailand",
+    "clues": [
+      "This city is known for its ornate shrines, canal network, and vibrant street life with floating markets.",
+      "Its official name is the longest city name in the world, starting with 'Krung Thep Mahanakhon' and continuing for over 40 more syllables."
+    ],
+    "fun_fact": [
+      "Bangkok's full ceremonial name has 169 characters and is the longest place name in the world, typically abbreviated as 'Krung Thep' by locals.",
+      "The city has over 400 Buddhist temples (wats) and was built on a swamp, earning it the nickname 'Venice of the East' for its many canals."
+    ],
+    "trivia": [
+      "The Grand Palace and Wat Phra Kaew (Temple of the Emerald Buddha) complex covers an area of 218,400 square meters and has been the royal residence since 1782.",
+      "Bangkok's Chatuchak Weekend Market is one of the world's largest with over 15,000 stalls spread across 35 acres."
+    ]
+  },
+  {
+    "city": "Kuala Lumpur",
+    "country": "Malaysia",
+    "clues": [
+      "This Southeast Asian capital is known for its iconic twin towers that were once the world's tallest buildings.",
+      "Its name means 'muddy confluence' in Malay, referring to the meeting of the Klang and Gombak rivers where the city was founded."
+    ],
+    "fun_fact": [
+      "The Petronas Towers, once the tallest buildings in the world (1998-2004), are connected by a sky bridge on the 41st and 42nd floors that is not actually attached to either tower but slides in and out.",
+      "Kuala Lumpur has a near-perfect year-round equatorial climate with constant temperatures and high humidity, making it one of the rainiest major cities in the world."
+    ],
+    "trivia": [
+      "The Batu Caves just outside the city feature a 42.7-meter-high gold statue of Lord Murugan, the tallest statue of a Hindu deity in Malaysia.",
+      "KL Tower has a revolving restaurant that offers panoramic views of the city and stands on the fourth-highest telecommunications tower in the world."
+    ]
+  },
+  {
+    "city": "Hanoi",
+    "country": "Vietnam",
+    "clues": [
+      "This Southeast Asian capital is known for its centuries-old architecture, lakes, and narrow streets in its Old Quarter.",
+      "It has a unique cultural landmark—a single stone pillar made to resemble a lotus blossom—and a preserved mausoleum with a communist leader."
+    ],
+    "fun_fact": [
+      "Hanoi's Train Street features a working railway running so close to buildings that residents must move their belongings when trains pass through.",
+      "The city's Ho Chi Minh Mausoleum contains the preserved body of the Vietnamese revolutionary leader, which is sent to Russia annually for maintenance."
+    ],
+    "trivia": [
+      "Hoan Kiem Lake in the center of Hanoi is associated with the legend of Emperor Lê Lợi receiving a magical sword from a turtle.",
+      "The Temple of Literature, built in 1070, was Vietnam's first university and is dedicated to Confucius, sages, and scholars."
+    ]
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "clues": [
+      "This city was formerly known as Saigon and features French colonial landmarks like a Notre-Dame cathedral made of materials from France.",
+      "Known for its chaotic traffic with millions of motorbikes and the network of tunnels used during wartime just outside the city."
+    ],
+    "fun_fact": [
+      "Ho Chi Minh City has an estimated 8.5 million motorbikes, with around 1,000 new ones hitting the streets each day.",
+      "The Củ Chi tunnels outside the city form a 250-kilometer network of tunnels used during the Vietnam War, featuring trap doors, living areas, kitchens, and even hospitals."
+    ],
+    "trivia": [
+      "The Saigon Central Post Office was designed by Gustave Eiffel (of Eiffel Tower fame) and still functions as a post office today.",
+      "The Bến Thành Market was built in 1870 and is recognized by its clock tower, with over 3,000 stalls selling everything from food to souvenirs."
+    ]
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "clues": [
+      "This island city-state features a giant observation wheel, a hotel with an infinity pool on its boat-shaped rooftop, and a statue of a lion-fish hybrid.",
+      "Known for its strict cleanliness laws, multicultural neighborhoods, and futuristic Gardens by the Bay with supertrees."
+    ],
+    "fun_fact": [
+      "Singapore's Gardens by the Bay features 18 'Supertrees' that are vertical gardens up to 50 meters tall and generate solar power.",
+      "The city-state has a fine for not flushing public toilets, and the sale of chewing gum is restricted after it was used to vandalize the Mass Rapid Transit system."
+    ],
+    "trivia": [
+      "The iconic Merlion statue with the head of a lion and body of a fish represents Singapore's original name Singapura ('lion city') and its history as a fishing village.",
+      "Marina Bay Sands hotel has the world's largest rooftop infinity pool, 57 stories above ground level and 150 meters long."
+    ]
+  },
+  {
+    "city": "Seoul",
+    "country": "South Korea",
+    "clues": [
+      "This Asian capital mixes modern skyscrapers with traditional temples and palaces surrounded by mountains.",
+      "Known for its technologically advanced infrastructure, including the world's fastest internet and a massive underground shopping mall."
+    ],
+    "fun_fact": [
+      "Seoul's Lotte World Tower is the 5th tallest building in the world and contains the world's highest glass-bottomed observation deck.",
+      "The city has one of the world's most extensive and advanced subway systems, with Wi-Fi, heated seats, and cellphone service even underground."
+    ],
+    "trivia": [
+      "Gyeongbokgung Palace, built in 1395, was the main royal palace of the Joseon dynasty and features a changing of the guard ceremony in traditional costumes.",
+      "Namsan Seoul Tower stands 236m high on Namsan Mountain and features 'love locks' where couples attach padlocks as symbols of their commitment."
+    ]
+  },
+  {
+    "city": "Beijing",
+    "country": "China",
+    "clues": [
+      "This capital city is home to the world's largest palace complex with 9,999 rooms and an emperor who was considered the 'Son of Heaven.'",
+      "Just outside the city is an ancient defensive structure built to keep out Mongol invaders that stretches for thousands of kilometers."
+    ],
+    "fun_fact": [
+      "The Forbidden City has 9,999 rooms, deliberately one room short of 10,000 because only heaven could have 10,000 rooms according to ancient belief.",
+      "Beijing's Central Business District contains the world's largest building by floor area—the New Century Global Center, which could fit 20 Sydney Opera Houses inside."
+    ],
+    "trivia": [
+      "The Great Wall's Mutianyu section near Beijing dates back to the 6th century and was rebuilt in the 16th century during the Ming Dynasty.",
+      "The Temple of Heaven's Echo Wall allows whispers to travel clearly from one end to the other over several meters due to its unique acoustic properties."
+    ]
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "clues": [
+      "This Chinese metropolis features a distinctive skyline with the Oriental Pearl TV Tower and the world's second-tallest building.",
+      "Known for its historical waterfront area called the Bund, with colonial-era buildings facing ultra-modern skyscrapers across the river."
+    ],
+    "fun_fact": [
+      "Shanghai Tower, the city's tallest building at 632 meters, has the world's fastest elevator, traveling at 20.5 meters per second (74 km/h).",
+      "The city has the world's first commercial maglev train, which reaches speeds of 430 km/h, connecting Pudong Airport to the outskirts in 8 minutes."
+    ],
+    "trivia": [
+      "The Bund features 52 buildings of various architectural styles, including Gothic, Baroque, and Art Deco, once housing powerful Western banks and trading houses.",
+      "Yu Garden was built in the 16th century during the Ming Dynasty and features a famous zigzag bridge designed to confuse evil spirits, who were believed to travel only in straight lines."
+    ]
+  },
+  {
+    "city": "Hong Kong",
+    "country": "China",
+    "clues": [
+      "This high-rise city is known for its dense skyline of skyscrapers set against mountains and a harbor crossed by traditional junk boats.",
+      "Famous for its Symphony of Lights show, displaying synchronized lights and lasers from more than 40 buildings each evening."
+    ],
+    "fun_fact": [
+      "Hong Kong has more skyscrapers (buildings over 150m) than any other city in the world – over 300 – more than twice as many as New York City.",
+      "The city's Peak Tram, operating since 1888, is one of the world's oldest funicular railways and climbs so steeply that buildings appear to lean at impossible angles."
+    ],
+    "trivia": [
+      "The world's longest outdoor covered escalator system in Hong Kong's Mid-Levels stretches over 800 meters and rises 135 meters through the city.",
+      "Rent in Hong Kong is so expensive that 'cage homes' exist – tiny living spaces as small as 1.5 square meters where people live in stacked metal cages."
+    ]
+  },
+  {
+    "city": "Taipei",
+    "country": "Taiwan",
+    "clues": [
+      "This east Asian capital features a bamboo-shaped skyscraper that held the title of world's tallest building from 2004 to 2010.",
+      "Known for its night markets, hot springs, and a museum housing treasures brought from mainland China."
+    ],
+    "fun_fact": [
+      "Taipei 101 has a 728-ton steel pendulum damper sphere visible to visitors that acts as a tuned mass damper, stabilizing the building during typhoons and earthquakes.",
+      "The city's metro system is so clean that many stations have elaborate art installations, and eating or drinking on trains incurs a fine of up to NT$7500 (approx. $250)."
+    ],
+    "trivia": [
+      "The National Palace Museum houses over 700,000 ancient Chinese artifacts and works of art, spanning 8,000 years of Chinese history.",
+      "Taipei's Shilin Night Market is one of the largest and most famous night markets in Taiwan, with over 500 food stalls and shops."
+    ]
+  },
+  {
+    "city": "Macau",
+    "country": "China",
+    "clues": [
+      "This former Portuguese colony is known as the 'Las Vegas of Asia' for its massive casinos and luxury hotels.",
+      "Features a distinctive fusion of Chinese and Portuguese architecture, cuisine, and culture, with colonial buildings alongside temples."
+    ],
+    "fun_fact": [
+      "Macau has the highest population density in the world, with around 21,400 people per square kilometer.",
+      "The city generates more gambling revenue than Las Vegas, with seven times the gambling revenue of the entire Vegas Strip."
+    ],
+    "trivia": [
+      "The ruins of St. Paul's, the remains of a 17th-century complex including what was originally the largest Catholic church in Asia, is one of Macau's most famous landmarks.",
+      "The Macau Tower's Skyjump holds the Guinness World Record for the highest commercial bungee jump at 233 meters."
+    ]
+  },
+  {
+    "city": "New Delhi",
+    "country": "India",
+    "clues": [
+      "This capital city features a massive war memorial gate inspired by the Arc de Triomphe and a tower resembling the Qutub Minar.",
+      "Planned by British architects in the early 20th century with wide avenues, it sits adjacent to the older part of the city."
+    ],
+    "fun_fact": [
+      "New Delhi is technically only a small part of the larger Delhi metropolis and became India's capital in 1931, replacing Calcutta (now Kolkata).",
+      "Agrasen ki Baoli is a 14th-century stepwell in the heart of the city that has 103 steps leading down to the water and is believed to be haunted."
+    ],
+    "trivia": [
+      "India Gate is a 42-meter-high war memorial commemorating the 70,000 Indian soldiers who lost their lives fighting for the British Army in World War I.",
+      "New Delhi's Connaught Place is one of the largest commercial and financial centers in Delhi, built in a circular pattern with Georgian architecture."
+    ]
+  },
+  {
+    "city": "Mumbai",
+    "country": "India",
+    "clues": [
+      "This coastal city was formerly known as Bombay and features a grand railway station and iconic Gateway monument.",
+      "Home to Bollywood, the world's largest film industry by number of films produced, and the Dharavi slum featured in 'Slumdog Millionaire'."
+    ],
+    "fun_fact": [
+      "Mumbai's Dhobi Ghat is an enormous open-air laundromat where thousands of washermen (dhobis) clean clothes in concrete wash pens daily, visible from passing trains.",
+      "The city's dabbawalas deliver 200,000 home-cooked lunches daily with such precision that they've earned a Six Sigma efficiency rating and are studied at business schools."
+    ],
+    "trivia": [
+      "Chhatrapati Shivaji Terminus (formerly Victoria Terminus) is a UNESCO World Heritage site and one of the busiest railway stations in India, serving 3 million commuters daily.",
+      "The Gateway of India was built to commemorate the visit of King George V and Queen Mary in 1911, but they only saw a cardboard model as construction finished in 1924."
+    ]
+  },
+  {
+    "city": "Bangalore",
+    "country": "India",
+    "clues": [
+      "This southern Indian city is known as the 'Silicon Valley of India' for its IT industry and startups.",
+      "Once called the 'Garden City' for its many parks and green spaces, including a botanical garden established in 1760."
+    ],
+    "fun_fact": [
+      "Bangalore has the highest number of pubs in Asia, earning it the nickname 'Pub Capital of India,' with over 900 establishments.",
+      "The city sits at an elevation of 920 meters, giving it one of the most pleasant climates in India despite being relatively close to the equator."
+    ],
+    "trivia": [
+      "Bangalore Palace was built in 1887 by the Wadiyar dynasty and was modeled after England's Windsor Castle.",
+      "The Indian Space Research Organisation's headquarters is located in Bangalore, managing India's space program including the Mars Orbiter Mission."
+    ]
+  },
+  {
+    "city": "Chennai",
+    "country": "India",
+    "clues": [
+      "This southern Indian coastal city was formerly known as Madras and is known for its beaches along the Bay of Bengal.",
+      "Famous for its classical Carnatic music, Bharatanatyam dance, and December Music Season festival."
+    ],
+    "fun_fact": [
+      "Chennai has the second-longest urban beach in the world, Marina Beach, stretching 13 kilometers along the Bay of Bengal.",
+      "The city is sometimes called the 'Detroit of India' because it produces nearly 40% of India's auto parts and vehicles."
+    ],
+    "trivia": [
+      "Fort St. George, built in 1644, was the first English fortress in India and now houses the Tamil Nadu legislative assembly.",
+      "Chennai's Kapaleeshwarar Temple is dedicated to Lord Shiva and features a 40-meter gopuram (gateway tower) with intricate carvings of Hindu deities."
+    ]
+  },
+  {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "clues": [
+      "This coastal city sits beneath a famous flat-topped mountain and near the point where two oceans meet.",
+      "Known for its harbor, beaches, and nearby wineries, as well as the historic prison island visible from its shores."
+    ],
+    "fun_fact": [
+      "Cape Town is home to Table Mountain, which has over 2,200 species of plants, more than exist in the entire United Kingdom.",
+      "The city lies near Cape Point, but contrary to popular belief, this is not where the Atlantic and Indian Oceans meet—that's actually at Cape Agulhas, 150km southeast."
+    ],
+    "trivia": [
+      "Robben Island, where Nelson Mandela was imprisoned for 18 years, is now a museum accessible by boat from Cape Town's V&A Waterfront.",
+      "The colorful houses of the Bo-Kaap neighborhood were originally leased to enslaved people from Malaysia, Indonesia, and other parts of Africa, painted bright colors as an expression of freedom."
+    ]
+  },
+  {
+    "city": "Johannesburg",
+    "country": "South Africa",
+    "clues": [
+      "This city was founded during a gold rush and is not a national or provincial capital, though it's the largest city in its country.",
+      "Known for its mining history, financial district with skyscrapers, and the nearby Cradle of Humankind archaeological site."
+    ],
+    "fun_fact": [
+      "Johannesburg is the world's largest city not built on a major body of water like a river, lake, or coastline.",
+      "The city has over 10 million trees, creating one of the world's largest man-made forests, visible from space when in leaf."
+    ],
+    "trivia": [
+      "The Constitution Hill complex includes the former prison where both Nelson Mandela and Mahatma Gandhi were held, now transformed into a living museum.",
+      "Gold Reef City theme park is built on an old gold mine that closed in 1971 and offers underground mine tours to show visitors how gold was extracted."
+    ]
+  },
+  {
+    "city": "Casablanca",
+    "country": "Morocco",
+    "clues": [
+      "This North African port city features one of the world's largest mosques with a 210-meter minaret overlooking the Atlantic Ocean.",
+      "Made famous by the 1942 film of the same name starring Humphrey Bogart, though the movie was not actually filmed there."
+    ],
+    "fun_fact": [
+      "Hassan II Mosque's minaret is the tallest religious structure in the world and features a laser at the top directed toward Mecca.",
+      "Despite being the setting for the famous film 'Casablanca,' no scenes were actually shot in the city—the entire movie was filmed in Hollywood."
+    ],
+    "trivia": [
+      "Casablanca is Morocco's largest city and main port, handling more than 21 million tons of cargo annually.",
+      "The city's Habous Quarter was built by the French in the 1930s to resemble a traditional Moroccan medina but with modern amenities."
+    ]
+  },
+  {
+    "city": "Marrakech",
+    "country": "Morocco",
+    "clues": [
+      "This ancient city is known for its massive market square filled with entertainers and food stalls that transforms at night.",
+      "Famous for its maze-like medina (old city) with narrow streets, surrounded by reddish walls that give the city its nickname."
+    ],
+    "fun_fact": [
+      "Marrakech is known as the 'Red City' due to the reddish-pink hue of its buildings and walls, made from local clay.",
+      "Jemaa el-Fnaa square transforms completely from day to night, changing from a trading area to a massive open-air restaurant and entertainment venue."
+    ],
+    "trivia": [
+      "The Majorelle Garden was restored by fashion designer Yves Saint Laurent, who loved the city so much that his ashes were scattered there after his death.",
+      "Marrakech's medina contains over 3,000 derbs (alleyways), many too narrow for cars, forming one of the world's largest car-free urban areas."
+    ]
+  },
+  {
+    "city": "Nairobi",
+    "country": "Kenya",
+    "clues": [
+      "This African capital has a national park within its city limits where lions, giraffes, and rhinos roam with the city skyline as backdrop.",
+      "Known as the 'Green City in the Sun' and features the home of 'Out of Africa' author Karen Blixen."
+    ],
+    "fun_fact": [
+      "Nairobi is the only major city in the world with a national park within its boundaries where wild lions, rhinos, and giraffes roam freely.",
+      "The city's name comes from the Maasai phrase 'Enkare Nairobi,' which means 'place of cool waters,' though it started as a railway depot in 1899."
+    ],
+    "trivia": [
+      "The Giraffe Centre allows visitors to feed endangered Rothschild's giraffes from a raised platform at eye level with the animals.",
+      "Nairobi National Museum houses the complete skeleton of Turkana Boy, a 1.6-million-year-old fossil of Homo erectus."
+    ]
+  },
+  {
+    "city": "Lagos",
+    "country": "Nigeria",
+    "clues": [
+      "This massive African city spans mainland and islands connected by bridges, with many neighborhoods built on reclaimed land.",
+      "Known for its energetic nightlife, Afrobeat music scene pioneered by Fela Kuti, and its massive tech startup ecosystem."
+    ],
+    "fun_fact": [
+      "Lagos is one of the fastest-growing cities in the world and may become the world's largest city by population by the end of the century.",
+      "The city's name means 'lakes' in Portuguese, given by Portuguese explorers in the 15th century because of the many lagoons and waterways."
+    ],
+    "trivia": [
+      "Lagos was Nigeria's capital until 1991 when the government relocated the administrative center to Abuja.",
+      "The city's New Afrika Shrine is a live music venue established by Femi Kuti in honor of his father Fela Kuti's original The Shrine, a center of Afrobeat music."
+    ]
+  },
+  {
+    "city": "Accra",
+    "country": "Ghana",
+    "clues": [
+      "This West African capital features a large Independence Square with an iconic Black Star gate and eternal flame.",
+      "Known for its colorful open-air markets, including Makola Market, and gold-named coastal castles that were once slave forts."
+    ],
+    "fun_fact": [
+      "Accra's Labadi Beach is one of the most popular beaches in Ghana, with drumming and dance performances on weekend evenings.",
+      "The city's distinctive fantasy coffins, shaped like everything from cars to mobile phones to fish, are famous works of art intended to represent the deceased's profession or passion."
+    ],
+    "trivia": [
+      "Independence Square in Accra contains the Independence Arch, Black Star Gate, and Eternal Flame of African Liberation lit by the first president, Kwame Nkrumah.",
+      "Jamestown Lighthouse, built in the 1930s, offers panoramic views of the oldest district of Accra, known for its fishing community and colonial architecture."
+    ]
+  },
+  {
+    "city": "Dakar",
+    "country": "Senegal",
+    "clues": [
+      "This West African port city sits on the Cap-Vert peninsula, the westernmost point of continental Africa.",
+      "Known for its vibrant music scene, French colonial architecture, and a giant African Renaissance monument taller than the Statue of Liberty."
+    ],
+    "fun_fact": [
+      "Dakar hosts the finish line of the famous Paris-Dakar Rally, though since 2009 the race has been held in South America and Saudi Arabia due to security concerns.",
+      "The African Renaissance Monument is the tallest statue in Africa at 49 meters, slightly taller than the Statue of Liberty, and was built by North Korean workers."
+    ],
+    "trivia": [
+      "Gorée Island just off Dakar's coast was one of the largest slave-trading centers on the African coast from the 15th to 19th centuries.",
+      "Dakar's Pink Lake (Lac Rose) gets its distinctive color from Dunaliella salina algae and has a salt content comparable to the Dead Sea."
+    ]
+  },
+  {
+    "city": "Addis Ababa",
+    "country": "Ethiopia",
+    "clues": [
+      "This capital city sits at an elevation of 2,355 meters, making it one of the highest major cities in Africa.",
+      "Home to the African Union headquarters and known for its coffee culture—the plant is native to this country."
+    ],
+    "fun_fact": [
+      "Addis Ababa means 'New Flower' in Amharic and was founded in 1886 by Emperor Menelik II after his wife Taytu Betul discovered hot springs there.",
+      "The city has a unique time system where 6 AM is considered 0:00, as Ethiopians start counting hours at sunrise, not midnight."
+    ],
+    "trivia": [
+      "The National Museum of Ethiopia houses the fossilized remains of 'Lucy,' a 3.2-million-year-old hominid discovered in 1974.",
+      "Mercato in Addis Ababa is the largest open-air market in Africa, covering several square miles with tens of thousands of people shopping daily."
+    ]
+  },
+  {
+    "city": "Dar es Salaam",
+    "country": "Tanzania",
+    "clues": [
+      "This East African port city was once the capital of its country and its name means 'Haven of Peace' in Arabic.",
+      "Known for its Tingatinga painting style, German colonial buildings, and being a gateway to safari parks and Zanzibar."
+    ],
+    "fun_fact": [
+      "Dar es Salaam was the capital of Tanzania until 1974 when the government announced plans to move to Dodoma, though many government offices remain in Dar.",
+      "The city features a unique architectural style called 'colonial modernism,' blending European styles with tropical adaptations like deep verandas."
+    ],
+    "trivia": [
+      "The National Museum of Tanzania houses important fossils from Olduvai Gorge, where some of the oldest known human ancestral remains were discovered.",
+      "Kariakoo Market is the main market of Dar es Salaam, with its name derived from 'carry corps', as it was the site of an old colonial carrier corps."
+    ]
+  },
+  {
+    "city": "Mexico City",
+    "country": "Mexico",
+    "clues": [
+      "This sprawling capital was built on the ruins of an ancient lake city with canals and is slowly sinking due to groundwater extraction.",
+      "Home to the second-largest city square in the world after Moscow's Red Square and surrounded by volcanic mountains."
+    ],
+    "fun_fact": [
+      "Mexico City is built on the ruins of Tenochtitlan, the ancient Aztec capital that was situated on an island in Lake Texcoco, and parts of the city are sinking at a rate of up to 20 cm per year.",
+      "The city has more museums than any other city in the world—over 150—including one dedicated entirely to chocolate."
+    ],
+    "trivia": [
+      "Chapultepec Park is one of the largest city parks in the Western Hemisphere at 1,695 acres, twice the size of New York's Central Park.",
+      "The Metropolitan Cathedral took nearly 250 years to build and features a mix of architectural styles including Gothic, Baroque, and Neoclassical."
+    ]
+  },
+  {
+    "city": "Guadalajara",
+    "country": "Mexico",
+    "clues": [
+      "This city is considered the birthplace of mariachi music and the wide-brimmed sombrero hat.",
+      "Known as Mexico's Silicon Valley for its tech industry and the city where tequila and the Mexican hat dance originated."
+    ],
+    "fun_fact": [
+      "Guadalajara hosts the International Book Fair (FIL), the largest Spanish language book fair in the world and second largest book fair overall after Frankfurt.",
+      "The city contains Hospicio Cabañas, a UNESCO World Heritage site with murals by José Clemente Orozco, including 'El Hombre de Fuego' (The Man of Fire)."
+    ],
+    "trivia": [
+      "The Guadalajara Cathedral's twin yellow-tiled towers are an iconic part of the city's skyline, built over 50 years in the 16th-17th centuries.",
+      "Nearby Lake Chapala is Mexico's largest freshwater lake and has become a popular retirement destination for Americans and Canadians."
+    ]
+  },
+  {
+    "city": "Monterrey",
+    "country": "Mexico",
+    "clues": [
+      "This industrial northern Mexican city is surrounded by mountains, including one shaped like a saddle.",
+      "Known for its manufacturing, particularly steel and beer, and as one of the wealthiest cities in Latin America."
+    ],
+    "fun_fact": [
+      "Monterrey's iconic Cerro de la Silla (Saddle Hill) has a distinctive saddle-shaped silhouette that is featured on the state's license plates.",
+      "The city houses the Macroplaza, one of the world's largest urban squares at 99 acres, with the majority developed in the 1980s."
+    ],
+    "trivia": [
+      "MARCO (Museo de Arte Contemporáneo) is housed in a distinctive red building designed by Ricardo Legorreta and features national and international contemporary art.",
+      "Fundidora Park was built on the site of a former steel foundry that was Latin America's first integrated steel company and now contains an industrial museum."
+    ]
+  },
+  {
+    "city": "Bogotá",
+    "country": "Colombia",
+    "clues": [
+      "This high-altitude capital sits at 2,640 meters above sea level, making it one of the highest major cities in the world.",
+      "Known for its colonial La Candelaria district, gold museum, and a church built into a salt mine nearby."
+    ],
+    "fun_fact": [
+      "Bogotá has over 5,000 parks and green spaces, including the Bogotá Botanical Garden, which focuses on Andean ecosystem conservation.",
+      "Every Sunday and holiday, the city closes over 120 km of roads to cars for Ciclovía, when up to 2 million people take to the streets on bicycles."
+    ],
+    "trivia": [
+      "The Gold Museum (Museo del Oro) contains over 55,000 pieces of gold and other materials from pre-Hispanic cultures, the largest collection of gold artifacts in the world.",
+      "The Salt Cathedral of Zipaquirá, located in a salt mine near Bogotá, has 14 small chapels representing the Stations of the Cross, all carved out of the halite rock."
+    ]
+  },
+  {
+    "city": "Lima",
+    "country": "Peru",
+    "clues": [
+      "This coastal capital rarely receives rain despite being surrounded by desert and is known for its Spanish colonial architecture.",
+      "Famous for its food scene, including ceviche, and pre-Inca ruins scattered throughout the city."
+    ],
+    "fun_fact": [
+      "Lima is one of the driest world capitals, receiving just 0.31 inches of rain annually, though it experiences high humidity and fog during winter.",
+      "The city's stray cat population in Kennedy Park (Parque Kennedy) has become a tourist attraction, with volunteers caring for over 100 cats that roam freely."
+    ],
+    "trivia": [
+      "Huaca Pucllana is a massive adobe and clay pyramid built between 200 and 700 AD, located in the middle of the Miraflores district.",
+      "Lima's Historic Centre is a UNESCO World Heritage site featuring colonial architecture like the Archbishop's Palace, Government Palace, and Cathedral of Lima."
+    ]
+  },
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "clues": [
+      "This capital city is surrounded by snow-capped Andes mountains and features a distinctive white spire tower.",
+      "Known for its neoclassical architecture, wine regions nearby, and as one of the largest cities in the Americas."
+    ],
+    "fun_fact": [
+      "Santiago's Grand Torre Santiago is the tallest building in Latin America at 300 meters and 64 floors.",
+      "The city has the largest pool in the world—the Crystal Lagoon at San Alfonso del Mar resort—over 1 km long and holding 66 million gallons of water."
+    ],
+    "trivia": [
+      "La Moneda Palace, the seat of the President of Chile, was built as a mint in 1805 and was bombed during the 1973 military coup that overthrew Salvador Allende.",
+      "Santiago's Metropolitan Park (Parque Metropolitano) is one of the largest urban parks in Latin America, with the summit of San Cristóbal Hill offering panoramic views of the city."
+    ]
+  },
+  {
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "clues": [
+      "This South American capital is known as the 'Paris of South America' for its European architecture and wide boulevards.",
+      "Famous for tango dancing, steakhouses called parrillas, and colorful houses in the La Boca neighborhood."
+    ],
+    "fun_fact": [
+      "Buenos Aires has more bookstores per capita than any other city in the world—over 700—including El Ateneo Grand Splendid, a theater converted into a bookstore.",
+      "The city's Recoleta Cemetery contains over 6,400 statues, sarcophagi, coffins, and crypts, including Eva Perón's grave, in elaborate architectural styles."
+    ],
+    "trivia": [
+      "Teatro Colón is considered one of the best opera houses in the world for its acoustics and ranks among the top five concert venues globally.",
+      "The Obelisco de Buenos Aires, built in 1936, commemorates the city's 400th anniversary and stands at the site where the Argentine flag was first raised in Buenos Aires."
+    ]
+  },
+  {
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "clues": [
+      "This capital city features the longest continuous sidewalk in the world along its coastline and a famous old town.",
+      "Known for its Art Deco and colonial architecture, mate tea culture, and a massive carnival celebration second only to Rio."
+    ],
+    "fun_fact": [
+      "Montevideo's Rambla is the longest continuous sidewalk in the world, stretching 22 kilometers along the coastline of the Río de la Plata.",
+      "The city has a massive underground network of tunnels built during colonial times, some of which are believed to have been used to smuggle contraband."
+    ],
+    "trivia": [
+      "The Palacio Salvo was once the tallest building in South America and was originally designed to be a hotel with a lighthouse on top.",
+      "Montevideo's Carnival is the longest in the world, lasting over 40 days with parades featuring candombe drumming groups and murga musical theatre."
+    ]
+  },
+  {
+    "city": "Caracas",
+    "country": "Venezuela",
+    "clues": [
+      "This South American capital sits in a valley surrounded by mountains, with a famous national park and mountain cable car.",
+      "Known for its modern architecture, oil wealth, and hillside barrios with colorful houses."
+    ],
+    "fun_fact": [
+      "Caracas has the world's cheapest gasoline due to government subsidies, sometimes costing less than a penny per gallon.",
+      "The city's cable car to Ávila Mountain, built in the 1950s, was once the longest and highest in the world and offers views of both the city and Caribbean Sea."
+    ],
+    "trivia": [
+      "The Central University of Venezuela campus is a UNESCO World Heritage site, featuring art by 28 of the most important artists of the country integrated into its architecture.",
+      "Caracas is the birthplace of Simón Bolívar, the revolutionary leader who helped establish the independence of Bolivia, Colombia, Ecuador, Peru, and Venezuela."
+    ]
+  },
+  {
+    "city": "Quito",
+    "country": "Ecuador",
+    "clues": [
+      "This capital city sits high in the Andean foothills at an elevation of 2,850 meters and is bisected by the equator.",
+      "Known for its well-preserved colonial center with 16th-century churches and monasteries, one covered in gold leaf inside."
+    ],
+    "fun_fact": [
+      "Quito was the first city to be declared a UNESCO World Heritage Site in 1978 (along with Kraków, Poland) for having the best-preserved historic center in Latin America.",
+      "The Middle of the World Monument (Mitad del Mundo) marks where the equator passes through, though modern GPS shows it's actually about 240 meters off."
+    ],
+    "trivia": [
+      "The Church of the Society of Jesus (La Compañía de Jesús) took 160 years to build and has an interior covered with approximately seven tons of gold leaf.",
+      "The TelefériQo cable car takes visitors up to 4,100 meters on the east side of Pichincha Volcano, offering spectacular views of the city and surrounding volcanoes."
+    ]
+  },
+  {
+    "city": "Havana",
+    "country": "Cuba",
+    "clues": [
+      "This Caribbean capital is known for its vintage American cars, Spanish colonial architecture, and a famous seafront boulevard.",
+      "Famous for its connection to Ernest Hemingway, mojito cocktails, and cigar factories."
+    ],
+    "fun_fact": [
+      "Havana's classic American cars from the 1950s remain because of the U.S. embargo imposed in 1960, which prevented the import of new American cars and parts.",
+      "The city has a 5-mile sea wall called the Malecón that serves as a social hub where locals gather to fish, socialize, and romance, known as 'the world's longest sofa'."
+    ],
+    "trivia": [
+      "Old Havana (Habana Vieja) contains over 900 historical buildings and was declared a UNESCO World Heritage site in 1982.",
+      "Hemingway's former home, Finca Vigía, is now a museum where he wrote 'For Whom the Bell Tolls' and 'The Old Man and the Sea'."
+    ]
+  },
+  {
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "clues": [
+      "This Caribbean capital features a massive 16th-century citadel and blue cobblestone streets in its old town.",
+      "Known for its Spanish colonial architecture painted in bright colors and being the second-oldest European-established city in the Americas."
+    ],
+    "fun_fact": [
+      "San Juan's streets in the Old Town are paved with blue cobblestones called adoquines, made from furnace slag from Spanish iron foundries and brought as ballast on ships.",
+      "El Morro fortress has walls up to 140 feet thick and survived numerous attacks over 400 years, including from Sir Francis Drake and the Dutch."
+    ],
+    "trivia": [
+      "The Bacardí Rum Factory in San Juan is the largest premium rum distillery in the world, capable of producing 100,000 liters per day.",
+      "The Cathedral of San Juan Bautista contains the tomb of Spanish explorer Ponce de León and is the second-oldest cathedral in the Americas."
+    ]
+  },
+  {
+    "city": "Panama City",
+    "country": "Panama",
+    "clues": [
+      "This Central American capital sits at the Pacific entrance to a famous canal and features a historic district contrasting with modern skyscrapers.",
+      "Known for its banking sector, ruins of the original city destroyed by pirates, and being the only capital city with a rainforest within its limits."
+    ],
+    "fun_fact": [
+      "Panama City is the only capital city in the world that has a rainforest within its city limits—the Metropolitan Natural Park houses 227 bird species, 45 mammal species, and 65 reptile species.",
+      "The city was founded in 1519, destroyed by Captain Henry Morgan in 1671, and then rebuilt two years later 5 miles from the original location."
+    ],
+    "trivia": [
+      "The Panama Canal generates about $2 billion annually for the country, with ships paying tolls based on their size and cargo—the highest toll ever paid was $1.13 million by the cruise ship Norwegian Pearl.",
+      "Panama Viejo, the remains of the original city, is a UNESCO World Heritage site along with the historic district of Casco Viejo, which features colonial architecture from the late 17th century."
+    ]
+  },
+  {
+    "city": "San José",
+    "country": "Costa Rica",
+    "clues": [
+      "This Central American capital sits in a lush valley surrounded by volcanoes and coffee plantations.",
+      "Known for its neoclassical National Theatre, Pre-Columbian Gold Museum, and vibrant Central Market."
+    ],
+    "fun_fact": [
+      "San José is one of the youngest capital cities in Latin America, becoming Costa Rica's capital in 1823 after independence from Spain.",
+      "The city's National Theatre is considered one of the finest historical buildings in Central America and was partially funded by a tax on coffee exports in the 1890s."
+    ],
+    "trivia": [
+      "The Pre-Columbian Gold Museum contains one of the largest collections of pre-Columbian gold artifacts in the Americas, with more than 1,600 pieces dating from 500 AD.",
+      "San José's Central Market has been operating since 1880 and occupies an entire block, with narrow alleys housing over 200 shops, stalls, and sodas (small restaurants)."
+    ]
+  },
+  {
+    "city": "La Paz",
+    "country": "Bolivia",
+    "clues": [
+      "This administrative capital is the highest de facto capital city in the world at over 3,600 meters above sea level.",
+      "Known for its aerial cable car system, indigenous markets, and dramatic setting in a canyon beneath snow-capped mountains."
+    ],
+    "fun_fact": [
+      "La Paz has the world's largest urban cable car system, Mi Teleférico, with 10 lines spanning 33 km that help residents navigate the city's steep terrain.",
+      "Due to the altitude, soccer games played in the city's Hernando Siles Stadium were banned by FIFA in 2007, though the ban was later lifted after protests."
+    ],
+    "trivia": [
+      "The Witches' Market (Mercado de las Brujas) sells traditional remedies, potions, dried llama fetuses, and fortune-telling services, primarily used in Aymara rituals.",
+      "Valley of the Moon, just outside the city, features bizarre lunar-like landscapes created by erosion of the clay-rich mountain."
+    ]
+  },
+  {
+    "city": "Asunción",
+    "country": "Paraguay",
+    "clues": [
+      "This subtropical capital sits along the Paraguay River and is one of the oldest cities in South America.",
+      "Known for its colonial and neoclassical buildings, including López Palace and the Panteón Nacional de los Héroes."
+    ],
+    "fun_fact": [
+      "Asunción was founded on August 15, 1537, which is why it's known as 'Mother of Cities'—many expeditions departed from here to found other cities in the region.",
+      "The city's unusual street numbering system increases by 100 with each block, so house #349 would be on the 3rd block of the street."
+    ],
+    "trivia": [
+      "The Panteón Nacional de los Héroes houses the remains of Paraguay's great heroes, including José Gaspar Rodríguez de Francia and Francisco Solano López.",
+      "Asunción's Casa de la Independencia is where Paraguay's independence from Spain was secretly planned in 1811, preserved as it was in the early 19th century."
+    ]
+  },
+  {
+    "city": "Kingston",
+    "country": "Jamaica",
+    "clues": [
+      "This Caribbean capital sits on a natural harbor protected by a long sandbar and was once a haven for pirates.",
+      "Known as the birthplace of reggae music, with museums dedicated to Bob Marley and a famous recording studio."
+    ],
+    "fun_fact": [
+      "Kingston was founded in 1692 after an earthquake destroyed the nearby city of Port Royal, then known as the 'wickedest city on Earth' for its pirate population.",
+      "The city's Trench Town neighborhood, immortalized in Bob Marley's songs, was originally a housing project built in the 1940s that became the cradle of reggae music."
+    ],
+    "trivia": [
+      "The Bob Marley Museum was the reggae superstar's home from 1975 until his death in 1981 and still has bullet holes in the walls from a 1976 assassination attempt.",
+      "Devon House, built in 1881 by Jamaica's first black millionaire, George Stiebel, is famous for its ice cream and represents the cultural diversity of 19th-century Jamaica."
+    ]
+  },
+  {
+    "city": "Port of Spain",
+    "country": "Trinidad and Tobago",
+    "clues": [
+      "This Caribbean capital features a large park called the Savannah with a collection of historic mansions known as the Magnificent Seven.",
+      "Known for hosting one of the world's most famous carnival celebrations and calypso music."
+    ],
+    "fun_fact": [
+      "Port of Spain's Queen's Park Savannah is said to have the world's largest roundabout at 3.5 km around.",
+      "The city's carnival dates back to the 18th century when French plantation owners held masquerade balls; after emancipation, former slaves transformed it with African traditions and calypso music."
+    ],
+    "trivia": [
+      "The Magnificent Seven are a group of grand mansions along the western edge of Queen's Park Savannah, built between 1902 and 1910 in various architectural styles.",
+      "The Red House, the seat of Parliament, was the site of a hostage crisis in 1990 when 114 members of the Jamaat al Muslimeen attempted to overthrow the government."
+    ]
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "clues": [
+      "This multicultural city features a famous needle-like tower and sits on the shores of one of the Great Lakes.",
+      "Known for its diverse neighborhoods, underground shopping concourse, and being Canada's largest city."
+    ],
+    "fun_fact": [
+      "Toronto has the world's longest street—Yonge Street—which stretches 1,896 km (though this claim is debated as it includes the entire Highway 11).",
+      "The city has the largest underground pedestrian system in North America—PATH—connecting 30 km of shopping, services, and entertainment."
+    ],
+    "trivia": [
+      "The CN Tower was the world's tallest freestanding structure from 1976 until 2007 and features a glass floor 342 meters above ground.",
+      "Toronto's Kensington Market has been a hub for successive waves of immigrants since the early 20th century and is now a National Historic Site."
+    ]
+  },
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "clues": [
+      "This Pacific coastal city is surrounded by mountains and consistently ranked among the world's most livable cities.",
+      "Known for its film industry (nicknamed 'Hollywood North'), outdoor lifestyle, and large urban park with a seawall."
+    ],
+    "fun_fact": [
+      "Vancouver has been the filming location for countless movies and TV shows, earning it the nickname 'Hollywood North,' with over 65 productions being filmed there at any given time.",
+      "The city's Stanley Park is about 10% larger than New York's Central Park, with a 8.8 km seawall that takes 2-3 hours to walk around."
+    ],
+    "trivia": [
+      "The Capilano Suspension Bridge stretches 137 meters across and 70 meters above the Capilano River, originally built in 1889 with hemp rope and cedar planks.",
+      "Vancouver's Gastown Steam Clock is one of the few working steam clocks in the world, though it's actually powered mostly by electricity with the steam used mainly for show."
+    ]
+  },
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "clues": [
+      "This island city features a hill in its center called 'Royal Mountain' and is the second-largest French-speaking city in the world after Paris.",
+      "Known for its distinctive blend of European and North American culture, underground city, and numerous festivals."
+    ],
+    "fun_fact": [
+      "Montreal has over 32 km of underground pedestrian walkways connecting shopping malls, apartment and office buildings, hotels, and metro stations, developed to avoid the harsh winter weather.",
+      "The city has more restaurants per capita than any other city in North America and is considered one of the gastronomic capitals of the continent."
+    ],
+    "trivia": [
+      "The Notre-Dame Basilica, built between 1824 and 1829, features a stunning interior with deep blue ceilings decorated with golden stars.",
+      "Montreal hosts the world's largest jazz festival (Festival International de Jazz de Montréal), comedy festival (Just for Laughs), and one of the largest fireworks competitions."
+    ]
+  },
+  {
+    "city": "Calgary",
+    "country": "Canada",
+    "clues": [
+      "This western Canadian city is known for its annual rodeo event and proximity to the Rocky Mountains.",
+      "Famous for its cowboy culture, oil industry, and an observation tower resembling a space needle."
+    ],
+    "fun_fact": [
+      "Calgary's +15 Skyway network is the world's most extensive pedestrian skywalk system, with over 18 km of walkways 15 feet above street level connecting buildings downtown.",
+      "The city hosted the 1988 Winter Olympics, made famous by the Jamaican bobsled team that inspired the movie 'Cool Runnings'."
+    ],
+    "trivia": [
+      "The Calgary Stampede, known as 'The Greatest Outdoor Show on Earth,' has been held annually since 1912 and features one of the world's richest rodeo competitions.",
+      "The Calgary Tower, built in 1968, was the tallest structure in the city until 1984 and features a rotating restaurant that makes a full rotation every 45 minutes at lunchtime."
+    ]
+  },
+  {
+    "city": "Ottawa",
+    "country": "Canada",
+    "clues": [
+      "This capital city sits at the confluence of three rivers and features Gothic Revival parliament buildings on a scenic hill.",
+      "Known for its canal that becomes the world's largest naturally frozen skating rink in winter and changing of the guard ceremony."
+    ],
+    "fun_fact": [
+      "The Rideau Canal becomes the world's largest naturally frozen skating rink in winter, stretching 7.8 km through downtown Ottawa—equivalent to 90 Olympic-sized hockey rinks.",
+      "Ottawa was chosen as Canada's capital in 1857 by Queen Victoria as a compromise between Toronto and Montreal, and because its location on the border made it less vulnerable to American attack."
+    ],
+    "trivia": [
+      "The Peace Tower on Parliament Hill contains a memorial chamber with books listing all Canadians who have died in conflicts since Confederation.",
+      "Ottawa's ByWard Market is one of Canada's oldest and largest public markets, established in 1826 by Lt-Col. John By, who also supervised the construction of the Rideau Canal."
+    ]
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "clues": [
+      "This coastal city is known for its Victorian-era architecture, tram network, and famous tennis tournament.",
+      "Famous for its laneway culture, street art, coffee scene, and often changing weather."
+    ],
+    "fun_fact": [
+      "Melbourne has the largest tram system outside of Europe, with 250 km of track and 493 trams, and offers a free City Circle route for tourists.",
+      "The city has been named the world's most livable city seven times by The Economist Intelligence Unit, holding the title for seven consecutive years from 2011 to 2017."
+    ],
+    "trivia": [
+      "The Melbourne Cricket Ground (MCG) is the largest stadium in the Southern Hemisphere, with a capacity of 100,000, and hosts cricket matches and Australian Rules Football.",
+      "The city's Royal Arcade, built in 1869, is the oldest surviving shopping arcade in Australia, featuring an iconic Gaunt's Clock with mythological figures Gog and Magog."
+    ]
+  },
+  {
+    "city": "Brisbane",
+    "country": "Australia",
+    "clues": [
+      "This river city in Queensland is known for its outdoor lifestyle, subtropical climate, and annual arts festival.",
+      "Features a man-made beach in the city center and a mountain lookout offering panoramic views."
+    ],
+    "fun_fact": [
+      "Brisbane's South Bank Parklands features a free, man-made beach in the middle of the city—Australia's only inner-city, man-made beach.",
+      "The Story Bridge is one of only three bridge climbs in the world (along with Sydney and Auckland) that allow climbers to scale to the top of the bridge structure."
+    ],
+    "trivia": [
+      "The Lone Pine Koala Sanctuary in Brisbane is the world's first and largest koala sanctuary, established in 1927 and home to over 130 koalas.",
+      "Mount Coot-tha offers panoramic views of the city and is home to the Sir Thomas Brisbane Planetarium, named after the city's namesake."
+    ]
+  },
+  {
+    "city": "Perth",
+    "country": "Australia",
+    "clues": [
+      "This isolated western city is said to be the most remote major city in the world, known for its beautiful beaches and parklands.",
+      "Famous for its Swan River, bell tower with historic bells from London, and being closer to Jakarta than to Sydney."
+    ],
+    "fun_fact": [
+      "Perth is one of the most isolated major cities in the world—the nearest city with a population over 1 million is Adelaide, over 2,100 km away.",
+      "The city has more sunshine hours annually than any other Australian capital city, averaging 8.8 hours of sunshine per day or 3,200 hours per year."
+    ],
+    "trivia": [
+      "Kings Park is one of the world's largest inner-city parks at 400 hectares, larger than New York's Central Park, and contains the Western Australian Botanic Garden.",
+      "The Perth Mint is Australia's oldest operating mint, established in 1899, and displays one of the largest gold coins ever created, weighing one ton and valued at over $50 million."
+    ]
+  },
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "clues": [
+      "This harbor city is built on a narrow isthmus between two harbors and on a field of dormant volcanoes.",
+      "Known as the 'City of Sails' for having more boats per capita than anywhere else in the world."
+    ],
+    "fun_fact": [
+      "Auckland is built on approximately 53 dormant volcanic cones, with the most recent eruption occurring about 600 years ago.",
+      "The city has more boats per capita than anywhere else in the world, with around one in three households owning a boat, earning it the nickname 'City of Sails'."
+    ],
+    "trivia": [
+      "The Sky Tower dominates Auckland's skyline at 328 meters, making it the tallest freestanding structure in the Southern Hemisphere and offering bungee jumps.",
+      "Auckland Domain, the city's oldest park, is built around the cone of an extinct volcano and houses the Auckland War Memorial Museum."
+    ]
+  },
+  {
+    "city": "Wellington",
+    "country": "New Zealand",
+    "clues": [
+      "This windy capital city sits at the southern tip of North Island and features a distinctive red cable car.",
+      "Known for its compact downtown area, film industry connections, and being the southernmost capital in the world."
+    ],
+    "fun_fact": [
+      "Wellington is known as 'Windy Wellington' due to the strong gales that blow through the Cook Strait, with an average wind speed of 29 km/h and 173 days per year with wind gusts over 60 km/h.",
+      "The city is home to Weta Workshop, the special effects company co-founded by Peter Jackson that created the effects for 'The Lord of the Rings' films, 'Avatar', and many others."
+    ],
+    "trivia": [
+      "The red Wellington Cable Car has been running since 1902, connecting downtown Lambton Quay with the Botanic Garden and offering panoramic views of the city.",
+      "The Beehive (Executive Wing of the New Zealand Parliament Buildings) is an iconic Wellington landmark designed by British architect Sir Basil Spence."
+    ]
+  },
+  {
+    "city": "Christchurch",
+    "country": "New Zealand",
+    "clues": [
+      "This 'Garden City' was severely damaged by earthquakes in 2010-2011 and has been rebuilt with innovative architecture including a cardboard cathedral.",
+      "Known for its English heritage, flat-bottomed punting boats on the Avon River, and Antarctic exploration connections."
+    ],
+    "fun_fact": [
+      "After the devastating earthquakes, Christchurch created the world's first 'Cardboard Cathedral' as a temporary replacement, designed by Japanese architect Shigeru Ban using 98 cardboard tubes.",
+      "The city is a gateway to Antarctica, with the International Antarctic Centre and the U.S., Italian, and New Zealand Antarctic programs based there."
+    ],
+    "trivia": [
+      "Christchurch Botanic Gardens, founded in 1863 with an English oak tree to commemorate the marriage of Prince Albert and Princess Alexandra, now spans 21 hectares.",
+      "The Re:START Mall was a creative response to earthquake devastation, creating a shopping center out of colorful shipping containers that became a tourist attraction."
+    ]
+  }
+]
