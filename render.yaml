@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: globetrotter-backend
+    env: python
+    region: oregon  # Choose your preferred region
+    buildCommand: cd backend && pip install -r requirements.txt
+    startCommand: cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: MONGO_URL
+        value: mongodb+srv://swati412:mymongopw@cluster0.uj92us8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      - key: DATABASE_NAME
+        value: globetrotter
+      - key: ALLOWED_ORIGINS
+        value: https://globetrotter-challenge.vercel.app,http://localhost:5173 
