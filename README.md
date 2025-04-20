@@ -14,7 +14,7 @@ Globetrotter is a full-stack web app where users get cryptic clues about a famou
   * Efficient database operations
 
 ### Frontend
-- **Framework**: Vue.js
+- **Framework**: React.js
 - **Styling**: Tailwind CSS
 - **Technologies**:
   * HTML5
