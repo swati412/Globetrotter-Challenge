@@ -16,6 +16,9 @@ logging.basicConfig(
 
 app = FastAPI(title=settings.APP_NAME)
 
+# Log the allowed origins for debugging
+logging.info(f"Configuring CORS with allowed origins: {settings.ORIGINS}")
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=settings.ORIGINS,
@@ -55,7 +58,9 @@ app.include_router(challenge.router, prefix="/challenges", tags=["Challenges"])
 
 @app.on_event("startup")
 async def startup_event():
+    logging.info(f"Connecting to MongoDB at {settings.MONGO_URI}, database: {settings.DATABASE_NAME}")
     await init_db()
+    logging.info("Database connection initialized")
 
 @app.get("/")
 async def root():
@@ -63,4 +68,5 @@ async def root():
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("app.main:app", host="0.0.0.0", port=8000, reload=True)
+    logging.info(f"Starting server on port {settings.PORT}")
+    uvicorn.run("app.main:app", host="0.0.0.0", port=settings.PORT, reload=True)
