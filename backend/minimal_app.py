@@ -306,12 +306,15 @@ def get_challenge(challenge_id):
 @app.route("/challenges", methods=["POST"])
 def create_challenge():
     try:
-        data = request.json
-        if not data or "creator_username" not in data:
+        # First try to get creator_username from the request body
+        data = request.json or {}
+        # Then check query parameters if not in body
+        creator_username = data.get("creator_username") or request.args.get("creator_username")
+        
+        if not creator_username:
             return jsonify({"error": "Invalid challenge data, creator_username is required"}), 400
         
         # Get creator user
-        creator_username = data["creator_username"]
         creator = db.users.find_one({"username": creator_username})
         if not creator:
             return jsonify({"error": "User not found"}), 404
