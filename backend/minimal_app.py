@@ -319,17 +319,36 @@ def get_challenge(challenge_id):
 @app.route("/challenges", methods=["POST"])
 def create_challenge():
     try:
-        # First try to get creator_username from the request body
-        data = request.json or {}
-        # Then check query parameters if not in body
-        creator_username = data.get("creator_username") or request.args.get("creator_username")
+        # Debug log request data
+        print(f"Create challenge request: form={request.form}, args={request.args}, json={request.json}")
+        
+        # Get creator_username from different possible sources
+        creator_username = None
+        
+        # First check query parameters - FastAPI uses this approach
+        if "creator_username" in request.args:
+            creator_username = request.args.get("creator_username")
+            print(f"Found creator_username in query params: {creator_username}")
+        
+        # Then try JSON body if available
+        elif request.json and "creator_username" in request.json:
+            creator_username = request.json.get("creator_username")
+            print(f"Found creator_username in JSON body: {creator_username}")
+        
+        # Finally try form data
+        elif "creator_username" in request.form:
+            creator_username = request.form.get("creator_username")
+            print(f"Found creator_username in form data: {creator_username}")
         
         if not creator_username:
+            print("No creator_username found in request")
             return jsonify({"error": "Invalid challenge data, creator_username is required"}), 400
         
         # Get creator user
+        print(f"Looking up user: {creator_username}")
         creator = db.users.find_one({"username": creator_username})
         if not creator:
+            print(f"User not found: {creator_username}")
             return jsonify({"error": "User not found"}), 404
         
         # Create new challenge
@@ -344,11 +363,23 @@ def create_challenge():
         
         # Insert challenge
         result = db.challenges.insert_one(new_challenge)
+        print(f"Created challenge with ID: {result.inserted_id}")
         
         # Return challenge
         created_challenge = db.challenges.find_one({"_id": result.inserted_id})
         
-        return jsonify(created_challenge)
+        # Format the response to match the FastAPI format
+        response = {
+            "challenge_id": created_challenge.get("challenge_id"),
+            "creator_id": created_challenge.get("creator_id"),
+            "status": created_challenge.get("status"),
+            "opponent_id": created_challenge.get("opponent_id"),
+            "opponent_username": created_challenge.get("opponent_username"),
+            "created_at": created_challenge.get("created_at")
+        }
+        
+        print(f"Returning challenge: {response}")
+        return jsonify(response)
     except Exception as e:
         print(f"Error creating challenge: {str(e)}")
         return jsonify({"error": f"Error creating challenge: {str(e)}"}), 500
