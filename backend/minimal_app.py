@@ -353,25 +353,29 @@ def create_challenge():
 
 @app.route("/challenges/<challenge_id>/accept", methods=["POST"])
 def accept_challenge(challenge_id):
+    # Get username directly from query parameters
+    username = request.args.get("username")
+    print(f"Accept challenge {challenge_id} with username from URL: {username}")
+    
+    if not username:
+        print("No username in query parameters")
+        return jsonify({"error": "username is required"}), 400
+    
     try:
-        data = request.json
-        if not data or "username" not in data:
-            return jsonify({"error": "Username is required"}), 400
-        
-        username = data["username"]
-        
         # Check if user exists
         user = db.users.find_one({"username": username})
         if not user:
+            print(f"User not found: {username}")
             return jsonify({"error": "User not found"}), 404
         
         # Check if challenge exists
         challenge = db.challenges.find_one({"challenge_id": challenge_id})
         if not challenge:
+            print(f"Challenge not found: {challenge_id}")
             return jsonify({"error": "Challenge not found"}), 404
         
         # Update challenge
-        update_result = db.challenges.update_one(
+        db.challenges.update_one(
             {"challenge_id": challenge_id},
             {"$set": {
                 "status": "accepted",
@@ -379,9 +383,6 @@ def accept_challenge(challenge_id):
                 "opponent_username": username
             }}
         )
-        
-        if update_result.modified_count == 0:
-            return jsonify({"error": "Failed to accept challenge"}), 500
         
         # Get updated challenge
         updated_challenge = db.challenges.find_one({"challenge_id": challenge_id})
@@ -404,10 +405,11 @@ def accept_challenge(challenge_id):
             "created_at": updated_challenge.get("created_at", datetime.now())
         }
         
+        print(f"Successfully accepted challenge: {response}")
         return jsonify(response)
     except Exception as e:
-        print(f"Error accepting challenge: {str(e)}")
-        return jsonify({"error": f"Error accepting challenge: {str(e)}"}), 500
+        print(f"Exception in accept_challenge: {str(e)}")
+        return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
     port = int(os.getenv("PORT", 8000))
