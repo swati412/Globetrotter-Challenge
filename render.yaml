@@ -7,7 +7,7 @@ services:
     startCommand: cd backend && gunicorn --bind 0.0.0.0:$PORT minimal_app:app
     envVars:
       - key: MONGO_URL
-        value: mongodb+srv://swati412:mymongopw@cluster0.uj92us8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+        value: mongodb+srv://swati412:swati%401234@cluster0.uj92us8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
       - key: DATABASE_NAME
         value: globetrotter
       - key: ALLOWED_ORIGINS
