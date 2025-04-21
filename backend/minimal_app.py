@@ -11,11 +11,33 @@ DATABASE_NAME = os.getenv("DATABASE_NAME", "globetrotter")
 MONGO_URL = os.getenv("MONGO_URL", "mongodb://localhost:27017")
 ALLOWED_ORIGINS = os.getenv("ALLOWED_ORIGINS", "http://localhost:5173,http://localhost:3000").split(",")
 
+print(f"Allowed origins: {ALLOWED_ORIGINS}")
+
 # Create Flask app
 app = Flask(__name__)
 
-# Configure CORS
-CORS(app, resources={r"/*": {"origins": ALLOWED_ORIGINS}})
+# Configure CORS - more permissive configuration
+CORS(app, 
+     resources={r"/*": {
+         "origins": ALLOWED_ORIGINS,
+         "allow_headers": ["Content-Type", "Authorization", "X-Requested-With"],
+         "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+         "supports_credentials": True
+     }})
+
+# Also add CORS headers via a decorator to ensure they're added to all responses
+@app.after_request
+def add_cors_headers(response):
+    # Get the origin from the request
+    origin = request.headers.get('Origin')
+    
+    # If the origin matches our allowed origins, set the headers
+    if origin and origin in ALLOWED_ORIGINS:
+        response.headers.add('Access-Control-Allow-Origin', origin)
+        response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization,X-Requested-With')
+        response.headers.add('Access-Control-Allow-Methods', 'GET,POST,PUT,DELETE,OPTIONS')
+        response.headers.add('Access-Control-Allow-Credentials', 'true')
+    return response
 
 # Connect to MongoDB
 try:
