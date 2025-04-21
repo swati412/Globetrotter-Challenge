@@ -183,20 +183,26 @@ def check_answer():
         # If a username is provided, update their score
         if username:
             # Update user score
+            print(f"Updating score for user {username}: correct={is_correct}, points={score_update}")
             if is_correct:
-                db.users.update_one(
+                result = db.users.update_one(
                     {"username": username},
                     {"$inc": {
                         "score": score_update,
-                        "correct_answers": 1 if is_correct else 0,
+                        "correct_answers": 1,
                         "total_attempts": 1
                     }}
                 )
             else:
-                db.users.update_one(
+                result = db.users.update_one(
                     {"username": username},
                     {"$inc": {"total_attempts": 1}}
                 )
+            
+            # Verify the update
+            updated_user = db.users.find_one({"username": username})
+            if updated_user:
+                print(f"User score after update: {updated_user.get('score', 0)}, correct_answers: {updated_user.get('correct_answers', 0)}, attempts: {updated_user.get('total_attempts', 0)}")
         
         # Get a random fun fact
         fun_facts = destination.get("fun_fact", ["No fun facts available"])
@@ -220,18 +226,21 @@ def check_answer():
 def get_user(username):
     user = db.users.find_one({"username": username})
     if not user:
-        return jsonify({"exists": False})
+        print(f"User not found: {username}")
+        return jsonify({"error": "User not found"}), 404
     
-    # Format response similar to the FastAPI implementation
+    # Format response exactly like the FastAPI implementation
     response = {
         "id": str(user.get("_id")),
         "username": user.get("username"),
-        "score": user.get("score", 0),
-        "correct_answers": user.get("correct_answers", 0),
-        "total_attempts": user.get("total_attempts", 0),
-        "created_at": user.get("created_at", datetime.now()),
-        "exists": True
+        "score": int(user.get("score", 0)),  # Ensure score is an integer
+        "correct_answers": int(user.get("correct_answers", 0)),  # Ensure is integer
+        "total_attempts": int(user.get("total_attempts", 0)),  # Ensure is integer
+        "created_at": user.get("created_at", datetime.now())
     }
+    
+    # Debug log the response
+    print(f"User response for {username}: {response}")
     
     return jsonify(response)
 
@@ -244,16 +253,19 @@ def create_user():
         
         # Check if username already exists
         username = user_data["username"]
+        print(f"Attempting to create user: {username}")
+        
         existing_user = db.users.find_one({"username": username})
         if existing_user:
+            print(f"User already exists: {username}")
             return jsonify({"error": "Username already exists"}), 400
         
         # Create user with initial stats
         new_user = {
             "username": username,
-            "score": user_data.get("initial_score", 0),
-            "correct_answers": user_data.get("initial_correct_answers", 0),
-            "total_attempts": user_data.get("initial_total_attempts", 0),
+            "score": int(user_data.get("initial_score", 0)),
+            "correct_answers": int(user_data.get("initial_correct_answers", 0)),
+            "total_attempts": int(user_data.get("initial_total_attempts", 0)),
             "created_at": datetime.now()
         }
         
@@ -265,12 +277,13 @@ def create_user():
         response = {
             "id": str(created_user.get("_id")),
             "username": created_user.get("username"),
-            "score": created_user.get("score", 0),
-            "correct_answers": created_user.get("correct_answers", 0),
-            "total_attempts": created_user.get("total_attempts", 0),
-            "created_at": created_user.get("created_at", datetime.now()),
+            "score": int(created_user.get("score", 0)),
+            "correct_answers": int(created_user.get("correct_answers", 0)),
+            "total_attempts": int(created_user.get("total_attempts", 0)),
+            "created_at": created_user.get("created_at", datetime.now())
         }
         
+        print(f"Successfully created user: {response}")
         return jsonify(response)
     except Exception as e:
         print(f"Error creating user: {str(e)}")
