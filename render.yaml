@@ -3,7 +3,6 @@ services:
     name: globetrotter-backend
     env: python
     region: oregon
-    runtime: python3.9
     buildCommand: cd backend && pip install -r requirements.txt && chmod +x start.sh
     startCommand: cd backend && ./start.sh
     envVars:
