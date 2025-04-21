@@ -1,13 +1,11 @@
 services:
   - type: web
     name: globetrotter-backend
-    runtime: python
-    plan: free
     env: python
-    region: oregon  # Choose your preferred region
-    pythonVersion: 3.9
-    buildCommand: cd backend && pip install -r requirements.txt
-    startCommand: cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    region: oregon
+    runtime: python3.9
+    buildCommand: cd backend && pip install -r requirements.txt && chmod +x start.sh
+    startCommand: cd backend && ./start.sh
     envVars:
       - key: MONGO_URL
         value: mongodb+srv://swati412:mymongopw@cluster0.uj92us8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
