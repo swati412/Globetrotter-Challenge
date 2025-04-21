@@ -18,11 +18,11 @@ print(f"Allowed origins: {ALLOWED_ORIGINS}")
 # Create Flask app
 app = Flask(__name__)
 
-# Configure CORS - more permissive configuration
+# Configure CORS - completely permissive configuration for debugging
 CORS(app, 
      resources={r"/*": {
-         "origins": ALLOWED_ORIGINS,
-         "allow_headers": ["Content-Type", "Authorization", "X-Requested-With"],
+         "origins": "*",  # Allow all origins for debugging
+         "allow_headers": ["*"],  # Allow all headers
          "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
          "supports_credentials": True
      }})
@@ -30,15 +30,11 @@ CORS(app,
 # Also add CORS headers via a decorator to ensure they're added to all responses
 @app.after_request
 def add_cors_headers(response):
-    # Get the origin from the request
-    origin = request.headers.get('Origin')
-    
-    # If the origin matches our allowed origins, set the headers
-    if origin and origin in ALLOWED_ORIGINS:
-        response.headers.add('Access-Control-Allow-Origin', origin)
-        response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization,X-Requested-With')
-        response.headers.add('Access-Control-Allow-Methods', 'GET,POST,PUT,DELETE,OPTIONS')
-        response.headers.add('Access-Control-Allow-Credentials', 'true')
+    # Add CORS headers to all responses for debugging
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    response.headers.add('Access-Control-Allow-Headers', '*')
+    response.headers.add('Access-Control-Allow-Methods', 'GET,POST,PUT,DELETE,OPTIONS')
+    response.headers.add('Access-Control-Allow-Credentials', 'true')
     return response
 
 # Connect to MongoDB
@@ -318,71 +314,42 @@ def get_challenge(challenge_id):
 
 @app.route("/challenges", methods=["POST"])
 def create_challenge():
+    # Get creator_username directly from query parameters
+    creator_username = request.args.get("creator_username")
+    print(f"Create challenge with creator_username from URL: {creator_username}")
+    
+    if not creator_username:
+        print("No creator_username in query parameters")
+        return jsonify({"error": "creator_username is required"}), 400
+    
     try:
-        # Debug log request data
-        print(f"Create challenge request: form={request.form}, args={request.args}, json={request.json}")
-        
-        # Get creator_username from different possible sources
-        creator_username = None
-        
-        # First check query parameters - FastAPI uses this approach
-        if "creator_username" in request.args:
-            creator_username = request.args.get("creator_username")
-            print(f"Found creator_username in query params: {creator_username}")
-        
-        # Then try JSON body if available
-        elif request.json and "creator_username" in request.json:
-            creator_username = request.json.get("creator_username")
-            print(f"Found creator_username in JSON body: {creator_username}")
-        
-        # Finally try form data
-        elif "creator_username" in request.form:
-            creator_username = request.form.get("creator_username")
-            print(f"Found creator_username in form data: {creator_username}")
-        
-        if not creator_username:
-            print("No creator_username found in request")
-            return jsonify({"error": "Invalid challenge data, creator_username is required"}), 400
-        
-        # Get creator user
-        print(f"Looking up user: {creator_username}")
-        creator = db.users.find_one({"username": creator_username})
-        if not creator:
-            print(f"User not found: {creator_username}")
+        # Get user
+        user = db.users.find_one({"username": creator_username})
+        if not user:
             return jsonify({"error": "User not found"}), 404
         
-        # Create new challenge
-        new_challenge = {
-            "challenge_id": str(uuid.uuid4()),
-            "creator_id": str(creator["_id"]),
+        # Create challenge
+        challenge_id = str(uuid.uuid4())
+        challenge = {
+            "challenge_id": challenge_id,
+            "creator_id": str(user["_id"]),
             "status": "created",
-            "opponent_id": None,
-            "opponent_username": None,
             "created_at": datetime.now()
         }
         
-        # Insert challenge
-        result = db.challenges.insert_one(new_challenge)
-        print(f"Created challenge with ID: {result.inserted_id}")
+        # Save challenge
+        db.challenges.insert_one(challenge)
         
-        # Return challenge
-        created_challenge = db.challenges.find_one({"_id": result.inserted_id})
-        
-        # Format the response to match the FastAPI format
-        response = {
-            "challenge_id": created_challenge.get("challenge_id"),
-            "creator_id": created_challenge.get("creator_id"),
-            "status": created_challenge.get("status"),
-            "opponent_id": created_challenge.get("opponent_id"),
-            "opponent_username": created_challenge.get("opponent_username"),
-            "created_at": created_challenge.get("created_at")
-        }
-        
-        print(f"Returning challenge: {response}")
-        return jsonify(response)
+        # Return response
+        return jsonify({
+            "challenge_id": challenge_id,
+            "creator_id": str(user["_id"]),
+            "status": "created",
+            "created_at": datetime.now().isoformat()
+        })
     except Exception as e:
-        print(f"Error creating challenge: {str(e)}")
-        return jsonify({"error": f"Error creating challenge: {str(e)}"}), 500
+        print(f"Exception in create_challenge: {str(e)}")
+        return jsonify({"error": str(e)}), 500
 
 @app.route("/challenges/<challenge_id>/accept", methods=["POST"])
 def accept_challenge(challenge_id):
