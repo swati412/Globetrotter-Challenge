@@ -3,8 +3,8 @@ services:
     name: globetrotter-backend
     env: python
     region: oregon
-    buildCommand: cd backend && pip install -r requirements.txt && chmod +x start.sh
-    startCommand: cd backend && ./start.sh
+    buildCommand: cd backend && pip install -r requirements.txt
+    startCommand: cd backend && python3 -m uvicorn simple_app:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: MONGO_URL
         value: mongodb+srv://swati412:mymongopw@cluster0.uj92us8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
