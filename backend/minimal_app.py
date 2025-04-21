@@ -4,6 +4,7 @@ from pymongo import MongoClient
 import os
 from bson import ObjectId
 import json
+import random
 
 # Configuration
 DATABASE_NAME = os.getenv("DATABASE_NAME", "globetrotter")
@@ -17,8 +18,17 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": ALLOWED_ORIGINS}})
 
 # Connect to MongoDB
-mongo_client = MongoClient(MONGO_URL)
-db = mongo_client[DATABASE_NAME]
+try:
+    mongo_client = MongoClient(MONGO_URL)
+    db = mongo_client[DATABASE_NAME]
+    # Test the connection
+    mongo_client.admin.command('ping')
+    print("MongoDB connection successful!")
+except Exception as e:
+    print(f"MongoDB connection error: {str(e)}")
+    # Still create a client in case connection is established later
+    mongo_client = MongoClient(MONGO_URL)
+    db = mongo_client[DATABASE_NAME]
 
 # Helper function for ObjectId
 def parse_objectid(id_str):
@@ -44,6 +54,23 @@ def root():
 def get_destinations():
     destinations = list(db.destinations.find(limit=100))
     return jsonify(destinations)
+
+@app.route("/destinations/random")
+def get_random_destination():
+    # Count total destinations
+    count = db.destinations.count_documents({})
+    if count == 0:
+        return jsonify({"error": "No destinations found"}), 404
+    
+    # Get a random destination
+    try:
+        # Skip a random number of documents
+        random_skip = random.randint(0, count - 1)
+        destination = db.destinations.find().skip(random_skip).limit(1)[0]
+        return jsonify(destination)
+    except Exception as e:
+        print(f"Error fetching random destination: {str(e)}")
+        return jsonify({"error": "Error fetching random destination"}), 500
 
 @app.route("/destinations/<destination_id>")
 def get_destination(destination_id):
