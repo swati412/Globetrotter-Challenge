@@ -17,24 +17,20 @@ import DestinationClue from '../components/DestinationClue';
 import FeedbackMessage from '../components/FeedbackMessage';
 import ChallengeModal from '../components/ChallengeModal';
 import LoginPopup from '../components/LoginPopup';
-import Timer from '../components/Timer';
 
 const GameView = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const dispatch = useDispatch();
   const { isAuthenticated, username } = useSelector((state) => state.user);
-  const { currentDestination, options, selectedOption, score, correctAnswers, incorrectAnswers, isGameOver, timeTaken, maxQuestionTime } = useSelector(
+  const { currentDestination, options, selectedOption, score, correctAnswers, incorrectAnswers, isGameOver } = useSelector(
     (state) => state.game
   );
 
-  console.log(timeTaken)
   const [feedback, setFeedback] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [showChallengeModal, setShowChallengeModal] = useState(false);
-  const [questionStartTime, setQuestionStartTime] = useState(null);
-
   const [showLoginPopup, setShowLoginPopup] = useState(false);
   const [challengeId, setChallengeId] = useState(null);
 
@@ -84,7 +80,6 @@ const GameView = () => {
     try {
       const data = await destinationsApi.getRandomDestination();
       dispatch(setDestination(data));
-      setQuestionStartTime(Date.now())
     } catch (error) {
       setError('Failed to load destination. Please try again.');
       console.error('Error loading destination:', error);
@@ -93,12 +88,6 @@ const GameView = () => {
     }
   };
 
-  const handleTimeUp = () => {
-    if(!selectOption){
-      handleAnswer(null);
-    }
-  }
-  console.log(timeTaken, "TIME")
   const handleAnswer = async (option) => {
     // Skip function for null option
     if (option === null) {
@@ -108,22 +97,15 @@ const GameView = () => {
     
     if (selectedOption || loading) return; // Prevent multiple answers or during load
     setLoading(true); // Indicate processing answer
-    const elaspedTime = questionStartTime ? (Date.now() - questionStartTime) / 1000 : maxQuestionTime
-    const timeTakenValue = Math.min(elaspedTime, maxQuestionTime);
     dispatch(selectOption(option));
     try {
-      const timeLeft = Math.max(0, maxQuestionTime - timeTakenValue)
-      const timePercentage = timeLeft / maxQuestionTime
       const result = await destinationsApi.submitAnswer({
         destinationId: currentDestination.id,
         selectedOption: option, 
-        username,
-        timeTaken: timeTakenValue
+        username
       });
 
-      const timeBonus = result.correct ? Math.round(timePercentage * 20) : 0;
       const basePoints = result.correct ? 10 : 0;
-      const totalPoints = basePoints + timeBonus;
       
       setFeedback({
         correct: result.correct,
@@ -134,8 +116,7 @@ const GameView = () => {
 
       // Dispatch score and count updates
       if (result.correct) {
-        debugger
-        dispatch(updateScore(totalPoints));
+        dispatch(updateScore(basePoints));
         dispatch(incrementCorrect()); // Dispatch correct increment
       } else {
         dispatch(incrementIncorrect()); // Dispatch incorrect increment
@@ -223,7 +204,6 @@ const GameView = () => {
 
   const renderGameQuestion = () => (
     <div className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 p-6">
-      {<Timer onTimeUp={handleTimeUp}/>}
       {/* Destination clue component */}
       <DestinationClue clue={currentDestination.clues} /> 
 

@@ -8,10 +8,7 @@ const initialState = {
   correctAnswers: 0,
   incorrectAnswers: 0,
   isGameOver: false,
-  difficulty: 'medium',
-  questionStartTime: null,
-  timeTaken: null,
-  maxQuestionTime: 30
+  difficulty: 'medium'
 };
 
 export const gameSlice = createSlice({
@@ -22,14 +19,9 @@ export const gameSlice = createSlice({
       state.currentDestination = action.payload;
       state.options = action.payload.options;
       state.selectedOption = null;
-      state.questionStartTime = Date.now();
-      state.timeTaken = null;
     },
     selectOption: (state, action) => {
       state.selectedOption = action.payload;
-      if(state.questionStartTime && action.payload !== null){
-        state.timeTaken =(Date.now() - state.questionStartTime) / 1000
-      }
     },
     updateScore: (state, action) => {
       state.score += action.payload;
@@ -45,10 +37,6 @@ export const gameSlice = createSlice({
     },
     setDifficulty: (state, action) => {
       state.difficulty = action.payload;
-    },
-    resetTimer: (state, action) => {
-      state.questionStartTime = Date.now();
-      state.timeTaken = null;
     },
     resetGame: (state) => {
       // Keep score and answer counts, reset other state
@@ -75,7 +63,6 @@ export const {
   setGameOver, 
   setDifficulty,
   resetGame,
-  resetTimer,
   resetFullGame
 } = gameSlice.actions;
 export default gameSlice.reducer; 
